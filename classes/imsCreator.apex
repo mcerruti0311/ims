@@ -3,13 +3,15 @@ public class imsCreator {
 
     String category = 'Clothing';
     String imsClass = 'Uniform';
-    String imsGroup = 'Retail';
-    String subgroup = 'Specialist';
+    String imsGroup = 'Administration';
+    String subgroup = 'Receptionist';
     String imsType = 'Shirt';
     String style = 'Polo';
+    // String style = 'Button Down';
     String imsFeature = 'Short Sleeve';
 
     String gender = 'Men\'s';
+   // String gender = 'Ladies';
     String typeOfIssue = 'Standard';
     Decimal processing = 30.0;
     Integer qtyStandardIssue = 4;
@@ -19,10 +21,10 @@ public class imsCreator {
     String itemStatus = 'Active';
 
     // Item variables
-    String manufacturerName = '5.11 Tactical';
-    String color = 'White';
+    String manufacturerName = 'Port Authority';
+    String color = 'Black';
     String vendorName = 'West Coast Screen Printing';
-    String mfgNumber = '71048';
+    String mfgNumber = 'K497';
 
 
 
@@ -85,6 +87,7 @@ public class imsCreator {
       clothingSizes.add('XL');
       clothingSizes.add('2XL');
       clothingSizes.add('3XL');
+      clothingSizes.add('4XL');
 
 // Account Data Models
 
@@ -111,7 +114,7 @@ public class imsCreator {
 
     Id ims01Id = ims01.Id;
 
-    for(Integer i = 0; i < 6; i++) {
+    for(Integer i = 0; i < 7; i++) {
       IMS_Detail__c imsDetails = new IMS_Detail__c();
         imsDetails.IMS_Master__c = ims01Id;
         imsDetails.Size__c = clothingSizes.get(i);
