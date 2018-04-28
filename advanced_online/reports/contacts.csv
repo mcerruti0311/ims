@@ -1,0 +1,453 @@
+Client_Name,Client_Location,Client_Location_Number,Authorized_User,Authorized_User_Email,Approver,Approver_Email
+"Apple, Inc.",Apple Cupertino,20000,Alex Ghanem,aghanem@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Alexa Hemken,ahemken@sis.us,Robert Sisco,rsisco@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Alexander Green,agreen@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,An Pham,apham@sis.us,Karlena Posada,kposada@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Andrew Fowler,afowler@sis.us,Robert Sisco,rsisco@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Anthony Kekauoha,akekauoha@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Benjamin Hernandez,bhernandez@sis.us,Steven Hood,shood@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Cameron Byrd,cbyrd@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Cameron Island,cisland@sis.us,Alex Ghanem,aghanem@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Christian Souza,csouza@sis.us,Steven Mosier,smosier@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Christina DeShera,cdeshera@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Christopher Magennis,cmagennis@sis.us,Julio Ruiz,jruiz@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Danton Nguyen,dantonnguyen@sis.us,Daniel Juarez,djuarez@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Daryl Legaspi,dlegaspi@sis.us,Steven Mosier,smosier@sis.us
+"Apple, Inc.",Apple Cupertino,20000,David Fleming,dfleming@sis.us,Cameron Byrd,cbyrd@sis.us
+"Apple, Inc.",Apple Cupertino,20000,David Huddleston,dhuddleston@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Graig Murphy,gmurphy@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,James Aiello,jaiello@sis.us,Julio Ruiz,jruiz@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Jennifer Ramirez,jramirez@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Jeremy Krabbe,jkrabbe@sis.us,Karlena Posada,kposada@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Jesse Antonio,jantonio@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Jesus Munoz,jmunoz@sis.us,Alex Ghanem,aghanem@sis.us
+"Apple, Inc.",Apple Cupertino,20000,John Madrigal,jmadrigal@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,John Paul Magana,jpmagana@sis.us,Alex Ghanem,aghanem@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Julio Ruiz,jruiz@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Karlena Posada,kposada@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Kevin Brown,kbrown@sis.us,Robert Sisco,rsisco@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Luis Lopez,llopez@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Mark Henry,mhenry@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Matthew Santos,msantos@sis.us,Cameron Byrd,cbyrd@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Michael-Miguel Silvestre,msilvestre@sis.us,Steven Mosier,smosier@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Nicholas Multer,nmulter@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Nicole Mogannam,nmogannam@sis.us,Benjamin Hernandez,bhernandez@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Rafael Murillo,rmurillo@sis.us,Karlena Posada,kposada@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Ricardo Montes,rmontes@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Robert Sisco,rsisco@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Rudy Lopez,rlopez@sis.us,Alex Ghanem,aghanem@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Samuel Martinez,samuelmartinez@sis.us,Anthony Kekauoha,akekauoha@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Samuel Nix,snix@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Sarah McFarland,smcfarland@sis.us,Samuel Nix,snix@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Scott Villalobos,svillalobos@sis.us,Cameron Byrd,cbyrd@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Sherry Montalban,smontalban@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Steven Hood,shood@sis.us,Jerry Tidwell,jtidwell@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Steven Mosier,smosier@sis.us,Nicole Mogannam,nmogannam@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Thanh Nguyen,thanhnguyen@sis.us,Cameron Byrd,cbyrd@sis.us
+"Apple, Inc.",Apple Cupertino,20000,Thomas Nguyen,tomnguyen@sis.us,Karlena Posada,kposada@sis.us
+"Apple, Inc.","Secure Destruction KF01B, CA Master",20170,Frank Chavez,fchavez@sis.us,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Destruction,20180,Andrew Feist,afeist@sis.us,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Destruction,20180,Jeffrey Bashir,jbashir@sis.us,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Destruction,20180,Ji Hoon Kang,jhkang24@gmail.com,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Destruction,20180,Kevin Diaz,diazkevin597@gmail.com,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Destruction,20180,Raymond Ruiz,rruiz@sis.us,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Casey McElroy,cckcmc4@yahoo.com,Jarrod Hollinger,jhollinger@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Derrick Irace,dirace@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Estefani Rodriguez,estefanirodriguez@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Evan Monighan,emonighan@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Hai Tran,htran@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Jarrod Hollinger,jhollinger@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Jonathan Childers,jchilders@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Kimberly Hudson,khudson@sis.us,Shannon McCaffrey,smccaffrey@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Luke Le,lle@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Manuel Osvaldo Govea,mogovea@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Marina Martinez,marinamartinez@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Matthew Johnson,mjohnson@sis.us,Kimberly Hudson,khudson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Michael Galban,mgalban@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.",Cupertino Secure Storage (RC09),20190,Tri Le,tle@sis.us,Matthew Johnson,mjohnson@sis.us
+Apple - Maiden,Apple Maiden,20300,Gary Davenport,gdavenport@sis.us,Tony Keller,tkeller@sis.us
+Apple - Maiden,Apple Maiden,20300,Leonard Puryear,lpuryear@sis.us,Tony Keller,tkeller@sis.us
+Apple - Maiden,Apple Maiden,20300,Tony Keller,tkeller@sis.us,William Kamaunu,wkamaunu@sis.us
+Apple - Maiden,Apple Maiden,20300,William Hibbard,whibbard@sis.us,Tony Keller,tkeller@sis.us
+Apple iCloud Data Center - Prineville,Apple Prineville,20400,Derek Rasmussen,drasmussen@sis.us,Rick Curry,rcurry@sis.us
+Apple iCloud Data Center - Prineville,Apple Prineville,20400,Donald Miller,donmiller@sis.us,Rick Curry,rcurry@sis.us
+Apple iCloud Data Center - Prineville,Apple Prineville,20400,James Blume,jblume@sis.us,Rick Curry,rcurry@sis.us
+Apple iCloud Data Center - Prineville,Apple Prineville,20400,Julie Crandall,jcrandall@sis.us,Rick Curry,rcurry@sis.us
+Apple iCloud Data Center - Prineville,Apple Prineville,20400,Rick Curry,rcurry@sis.us,William Kamaunu,wkamaunu@sis.us
+Apple iCloud Data Center - Prineville,Apple Prineville,20400,William Kamaunu,wkamaunu@sis.us,Steven Hood,shood@sis.us
+Apple - Newark,Apple Newark,20500,Brian Gomez,bgomez@sis.us,William Kamaunu,wkamaunu@sis.us
+Apple - Newark,Apple Newark,20500,Erik Rasmussen,erasmussen@sis.us,Brian Gomez,bgomez@sis.us
+Apple - Newark,Apple Newark,20500,Ruben Reyes,rreyes@sis.us,Brian Gomez,bgomez@sis.us
+Apple - Newark,Apple Newark,20500,Tina Williams,twilliams@sis.us,Brian Gomez,bgomez@sis.us
+Apple - Newark,Apple Newark,20500,Victor Perez,victorperez@sis.us,Brian Gomez,bgomez@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Destiny Rios,drios@sis.us,Jeffery Jones,jtjones@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Elree Blake,eblake@sis.us,Benjamin Hernandez,bhernandez@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Jason Blair,jasonblair@sis.us,Elree Blake,eblake@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Jeffery Jones,jtjones@sis.us,Elree Blake,eblake@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Jeffrey Gray,jgray@sis.us,Elree Blake,eblake@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Keith Vice,kvice@sis.us,Elree Blake,eblake@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Mitchell Moller,mmoller@sis.us,Elree Blake,eblake@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Sean Johnson,seanjohnson@sis.us,Jason Blair,jasonblair@sis.us
+Apple - Elk Grove,Apple Elk Grove,20600,Steven Pardoe,spardoe@sis.us,Elree Blake,eblake@sis.us
+Apple - Austin,Apple Austin,20700,Gary Tyson,gtyson@sis.us,Harold Prescott,hprescott@sis.us
+Apple - Austin,Apple Austin,20700,Glenn Leikam,gleikam@sis.us,Harold Prescott,hprescott@sis.us
+Apple - Austin,Apple Austin,20700,Harold Dominguez,hdominguez@sis.us,Harold Prescott,hprescott@sis.us
+Apple - Austin,Apple Austin,20700,Harold Prescott,hprescott@sis.us,Lawrence Sproul,lsproul@sis.us
+Apple - Austin,Apple Austin,20700,Hugh Rankin,hrankin@sis.us,Harold Prescott,hprescott@sis.us
+Apple - Austin,Apple Austin,20700,Lawrence Sproul,lsproul@sis.us,Benjamin Hernandez,bhernandez@sis.us
+Apple - Austin,Apple Austin,20700,Ronald Christensen,rchristensen@sis.us,Harold Prescott,hprescott@sis.us
+Apple - Austin,Apple Austin,20700,Ronald Coleman,rcoleman@sis.us,Harold Prescott,hprescott@sis.us
+Apple - Austin,Apple Austin,20700,William Smiley,wsmiley@sis.us,Harold Prescott,hprescott@sis.us
+"Apple, Inc.","Sunnyvale, CA - MT05 Mint Lab Apple",20780,Lucas Sandoval,lucassandoval@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.","Sunnyvale, CA - MT05 Mint Lab Apple",20780,Mary Okeigwe,mokeigwe@sis.us,Matthew Johnson,mjohnson@sis.us
+"Apple, Inc.","Sunnyvale, CA - MT05 Mint Lab Apple",20780,Roy Flores,royflores@sis.us,Matthew Johnson,mjohnson@sis.us
+Apple iCloud Data Center - Reno,Apple Reno,20900,Aaron Laughridge,alaughridge@sis.us,Brad Oliver,boliver@sis.us
+Apple iCloud Data Center - Reno,Apple Reno,20900,Brad Oliver,boliver@sis.us,William Kamaunu,wkamaunu@sis.us
+Apple iCloud Data Center - Reno,Apple Reno,20900,Coleman Bunyard,cbunyard@sis.us,Brad Oliver,boliver@sis.us
+Apple iCloud Data Center - Reno,Apple Reno,20900,Kevin Woodson,kwoodson@sis.us,Brad Oliver,boliver@sis.us
+Apple iCloud Data Center - Reno,Apple Reno,20900,Richard Hearrell,rhearrell@sis.us,Brad Oliver,boliver@sis.us
+"Apple, Inc.","Apple AZ, Wittmann",21500,Aaron Putman,aputman@sis.us,Matthew Scharnett,mscharnett@sis.us
+"Apple, Inc.","Apple AZ, Wittmann",21500,Jean Thermitus,jthermitus@sis.us,Matthew Scharnett,mscharnett@sis.us
+"Apple, Inc.","Apple AZ, Wittmann",21500,Matthew Scharnett,mscharnett@sis.us,Benjamin Hernandez,bhernandez@sis.us
+"Apple, Inc.","Apple AZ, Wittmann",21500,Richard Leonard,rleonard@sis.us,Matthew Scharnett,mscharnett@sis.us
+"Apple, Inc.","Apple AZ, Wittmann",21500,Robert Jones,rjones@sis.us,Matthew Scharnett,mscharnett@sis.us
+Nike,"Nike OR, Beaverton",23400,Albert Prado,aprado@sis.us,John Arthur,jarthur@sis.us
+Nike,"Nike OR, Beaverton",23400,John Arthur,jarthur@sis.us,William Barnhart,kbarnhart@sis.us
+Nike,"Nike OR, Beaverton",23400,Mark Remiendo,mremiendo@sis.us,John Arthur,jarthur@sis.us
+Nike,"Nike OR, Beaverton",23400,Ryan Savage,rsavage@sis.us,John Arthur,jarthur@sis.us
+Nike,"Nike NY, NYC",23600,Yanell Youngbey,yyoungbey@sis.us,John Arthur,jarthur@sis.us
+Workday,"Workday, CA",24400,Andrew Linder,andrewlinder95@gmail.com,Lai Nguyen,lainguyen@sis.us
+Workday,"Workday, CA",24400,Edward Domino,edomino@sis.us,Lai Nguyen,lainguyen@sis.us
+Workday,"Workday, CA",24400,Lai Nguyen,lainguyen@sis.us,Stephen Perry,sperry@sis.us
+Workday,"Workday, CA",24400,Melissa Cook,mnewyorkcook@yahoo.com,Lai Nguyen,lainguyen@sis.us
+Workday,"Workday, CA",24400,Sarorth Muth,rockymuth@gmail.com,Lai Nguyen,lainguyen@sis.us
+Pegatron,Pegatron Elk Grove,24900,Abram Moreno,amoreno@sis.us,Julianna Finney,jfinney@sis.us
+Pegatron,Pegatron Elk Grove,24900,Daldeep Sanghera,dsanghera@sis.us,Sherry Nansel,snansel@sis.us
+Pegatron,Pegatron Elk Grove,24900,Franklin Wooters,fwooters@sis.us,Julianna Finney,jfinney@sis.us
+Pegatron,Pegatron Elk Grove,24900,Jason Wynn,jwynn@sis.us,Abram Moreno,amoreno@sis.us
+Pegatron,Pegatron Elk Grove,24900,Julianna Finney,jfinney@sis.us,Benjamin Hernandez,bhernandez@sis.us
+Pegatron,Pegatron Elk Grove,24900,Sherry Nansel,snansel@sis.us,Julianna Finney,jfinney@sis.us
+Pegatron,Pegatron Elk Grove,24900,TimothyJay Torres,tjtorres@sis.us,Franklin Wooters,fwooters@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Fidel Silva,fsilva@sis.us,John Pacheco,jpacheco@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Gerardo Patino,gpatino@sis.us,John Pacheco,jpacheco@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Harold Brown,hbrown@sis.us,John Pacheco,jpacheco@sis.us
+"Apple, Inc./Beats",Beats CC,25150,John Pacheco,jpacheco@sis.us,Benjamin Hernandez,bhernandez@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Julio Valencia,jvalencia@sis.us,John Pacheco,jpacheco@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Justin Scott,jscott@sis.us,John Pacheco,jpacheco@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Quentin Price,qprice@sis.us,John Pacheco,jpacheco@sis.us
+"Apple, Inc./Beats",Beats CC,25150,Rosemary Hernandez Gonzalez,rgonzalez@sis.us,John Pacheco,jpacheco@sis.us
+GitHub - San Francisco,"GitHub, Inc.",25200,Alexander Lu,alu@sis.us,Stephen Perry,sperry@sis.us
+Stripe,"Stripe, Inc.",25250,Andrew Masis,amasis@sis.us,Anthony Le,ale@sis.us
+Stripe,"Stripe, Inc.",25250,Anthony Le,ale@sis.us,Stephen Perry,sperry@sis.us
+Stripe,"Stripe, Inc.",25250,Cameron Soo,csoo@sis.us,Anthony Le,ale@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Christopher Woolbright,cwoolbright@sis.us,Pardeep Singh,psingh@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Daniel Cortez,dcortez@sis.us,Tyler Casterson,tcasterson@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,David Henson,dhenson@sis.us,William Barnhart,kbarnhart@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Dean Garcia,deangarcia@sis.us,Tyler Casterson,tcasterson@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Edriss Moradi,emoradi@sis.us,Daniel Cortez,dcortez@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,James Gragnola,jgragnola@sis.us,Tyler Casterson,tcasterson@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Jeff Schielie,jschielie@sis.us,Daniel Cortez,dcortez@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Jeffrey Alvarez,jalvarez@sis.us,Tyler Casterson,tcasterson@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Jessee Heise,jheise@sis.us,Daniel Cortez,dcortez@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,John Gonzales,johngonzales@sis.us,Daniel Cortez,dcortez@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,John Kim,johnkim@sis.us,Pardeep Singh,psingh@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Juan Vazquez,vazquezjuan095@gmail.com,Pardeep Singh,psingh@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Marilyn MacLellan,mmaclellan@sis.us,Eric Meng,emeng@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Mark Collins,mcollins@sis.us,Pardeep Singh,psingh@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Michael Causey,mcausey@sis.us,James Gragnola,jgragnola@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Nathaniel Root,nroot@sis.us,James Gragnola,jgragnola@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Pardeep Singh,psingh@sis.us,Tyler Casterson,tcasterson@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Steven Llanos,sllanos@sis.us,Pardeep Singh,psingh@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Trevor Criddle,tcriddle@sis.us,Pardeep Singh,psingh@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Tyler Casterson,tcasterson@sis.us,David Henson,dhenson@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Vesper Aeon,vaeon@sis.us,Daniel Cortez,dcortez@sis.us
+Amazon.com,"Amazon Lab 126 CA, Sunnyvale",25400,Yassin Issak,yissak@sis.us,Pardeep Singh,psingh@sis.us
+Amazon.com,Amazon SLU,26000,Aaron Sanders,asanders@sis.us,Christian Binkley,cbinkley@sis.us
+Amazon.com,Amazon SLU,26000,Alissa Carriger,alissamheinen@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Allison James,ajames@sis.us,Dennis Hatton,dhatton@sis.us
+Amazon.com,Amazon SLU,26000,Amanuel Bekele,abekele@sis.us,Leo Kincannon,lkincannon@sis.us
+Amazon.com,Amazon SLU,26000,Amy Fantozzi,afantozzi@sis.us,Dennis Hatton,dhatton@sis.us
+Amazon.com,Amazon SLU,26000,Annastasia Vela,ladylelloi@yahoo.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Anthony Ball,anthony_ball@outlook.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Ashleigh Barbeau,abarbeau@sis.us,Kyle Bennett,kbennett@sis.us
+Amazon.com,Amazon SLU,26000,Brett Minor,bminor@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,Brunie Antoine,brunieantoine@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Cameron Kurtz,ckurtz@sis.us,Michael Wells,mwells@sis.us
+Amazon.com,Amazon SLU,26000,Carl Olive,colive@sis.us,Leo Kincannon,lkincannon@sis.us
+Amazon.com,Amazon SLU,26000,Charles Holden,cholden@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Chelsea Rigger,chelrigger@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Chris Turner,cturner@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Christian Binkley,cbinkley@sis.us,Dennis Hatton,dhatton@sis.us
+Amazon.com,Amazon SLU,26000,Christian DeLaMare,delamax99@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Christopher Brown,cbrown@sis.us,Kyle Bennett,kbennett@sis.us
+Amazon.com,Amazon SLU,26000,Christopher Engler,cengler@sis.us,Dennis Hatton,dhatton@sis.us
+Amazon.com,Amazon SLU,26000,Christopher Hamerly,chamerly@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,Christopher Morton,cmorton@sis.us,Thomas Majercak,tmajercak@sis.us
+Amazon.com,Amazon SLU,26000,Christopher Pfister,cpfister@sis.us,Kenyatta Bills,kbills@sis.us
+Amazon.com,Amazon SLU,26000,Clell Pence,cpence@sis.us,Michael Wells,mwells@sis.us
+Amazon.com,Amazon SLU,26000,Daniel Sanders,dsanders@sis.us,Michael Moore,mmoore@sis.us
+Amazon.com,Amazon SLU,26000,Daniel Thompson,dthompson@sis.us,Kenyatta Bills,kbills@sis.us
+Amazon.com,Amazon SLU,26000,DeMarco Greene,dgreene@sis.us,Kenyatta Bills,kbills@sis.us
+Amazon.com,Amazon SLU,26000,Dennis Hatton,dhatton@sis.us,Joseph Weaver,jweaver@sis.us
+Amazon.com,Amazon SLU,26000,Dennis Minton,dminton@sis.us,Dennis Hatton,dhatton@sis.us
+Amazon.com,Amazon SLU,26000,Devendra Pandey,dpandey@siscorp.us,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Diamond Grays,graysdiamond@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Dorian Chappa,dchappa@sis.us,Kenyatta Bills,kbills@sis.us
+Amazon.com,Amazon SLU,26000,Edgardo Rivera,erivera@sis.us,Christopher Engler,cengler@sis.us
+Amazon.com,Amazon SLU,26000,Enoch Savior,esavior@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Eric Meng,emeng@sis.us,Michael Wells,mwells@sis.us
+Amazon.com,Amazon SLU,26000,Erik Heasley,eheasley@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,Ezra Gould,egould@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Fartun Sahal,fsahal@sis.us,Michael Moore,mmoore@sis.us
+Amazon.com,Amazon SLU,26000,Gerald McCloud,gmccloud@sis.us,Thomas Majercak,tmajercak@sis.us
+Amazon.com,Amazon SLU,26000,Glenn Schulz,gschulz35@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Gregory Christensen,gchristensen@sis.us,Michael Moore,mmoore@sis.us
+Amazon.com,Amazon SLU,26000,Gregory Miller,gmiller@sis.us,Christian Binkley,cbinkley@sis.us
+Amazon.com,Amazon SLU,26000,Harrison McFarland,hmcfarland@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,James Kelly,jkelly@sis.us,Thomas Majercak,tmajercak@sis.us
+Amazon.com,Amazon SLU,26000,Janss Woldseth,jwoldseth@sis.us,Dennis Hatton,dhatton@sis.us
+Amazon.com,Amazon SLU,26000,Jasmine Davis,kiara9127@hotmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Jason Turk,jturk@sis.us,Michael Kim,mkim@sis.us
+Amazon.com,Amazon SLU,26000,Jed Siacor,jsiacor@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Jeffrey Arnevick,jeff.arnevick@gmail.com,Tamala Watkins,twatkins@siscorp.us
+Amazon.com,Amazon SLU,26000,John Leary,jleary@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,John Steen,easthillb@aol.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Jonathon Wills,jwills@sis.us,Thomas Majercak,tmajercak@sis.us
+Amazon.com,Amazon SLU,26000,Jose Perez,joseperez@sis.us,Michael Kim,mkim@sis.us
+Amazon.com,Amazon SLU,26000,Jose StokerMota,jstokermota@sis.us,Amy Fantozzi,afantozzi@sis.us
+Amazon.com,Amazon SLU,26000,Joseph Weaver,jweaver@sis.us,William Barnhart,kbarnhart@sis.us
+Amazon.com,Amazon SLU,26000,Joshua Nelson,jnelson@sis.us,Joseph Weaver,jweaver@sis.us
+Amazon.com,Amazon SLU,26000,Justen Sweeting,jsweeting@sis.us,Michael Wells,mwells@sis.us
+Amazon.com,Amazon SLU,26000,Justin Englund,jenglund@sis.us,Christian Binkley,cbinkley@sis.us
+Amazon.com,Amazon SLU,26000,Kacie Hamilton,kaciehamilton@hotmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Kenyatta Bills,kbills@sis.us,Clell Pence,cpence@sis.us
+Amazon.com,Amazon SLU,26000,Kevin De Los Santos,kdelossantos@sis.us,Timothy Gonzales,tgonzales@sis.us
+Amazon.com,Amazon SLU,26000,Kevin Montano,kmontano@sis.us,Michael Kim,mkim@sis.us
+Amazon.com,Amazon SLU,26000,Kingsley Onuchukwu,konuchukwu@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,Kyle Bennett,kbennett@sis.us,Clell Pence,cpence@sis.us
+Amazon.com,Amazon SLU,26000,Kyle Broussard,kbroussard@sis.us,Michael Moore,mmoore@sis.us
+Amazon.com,Amazon SLU,26000,Leo Kincannon,lkincannon@sis.us,Clell Pence,cpence@sis.us
+Amazon.com,Amazon SLU,26000,Linh Nguyen,lnguyen@sis.us,Thomas Majercak,tmajercak@sis.us
+Amazon.com,Amazon SLU,26000,Louel Hagos,lhagos@eagles.ewu.edu,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Lucas Kekuna,lkekuna@sis.us,Christopher Engler,cengler@sis.us
+Amazon.com,Amazon SLU,26000,Luke Gendro,lgendro@sis.us,Leo Kincannon,lkincannon@sis.us
+Amazon.com,Amazon SLU,26000,Manasseh Chege,mchege@sis.us,Kenyatta Bills,kbills@sis.us
+Amazon.com,Amazon SLU,26000,Marc Hurd,mhurd@sis.us,Christian Binkley,cbinkley@sis.us
+Amazon.com,Amazon SLU,26000,Mark Van Scoy,mvanscoy@sis.us,Kyle Bennett,kbennett@sis.us
+Amazon.com,Amazon SLU,26000,Marshall Helm,mhelm@sis.us,Allison James,ajames@sis.us
+Amazon.com,Amazon SLU,26000,Michael Kim,mkim@sis.us,Clell Pence,cpence@sis.us
+Amazon.com,Amazon SLU,26000,Michael Moore,mmoore@sis.us,Clell Pence,cpence@sis.us
+Amazon.com,Amazon SLU,26000,Michael Wells,mwells@sis.us,William Barnhart,kbarnhart@sis.us
+Amazon.com,Amazon SLU,26000,Mitchel Wilkinson,mwilkinson@sis.us,Leo Kincannon,lkincannon@sis.us
+Amazon.com,Amazon SLU,26000,Nazneen Hamid,jameham888@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Nicholas Fritch,nfritch@sis.us,Christian Binkley,cbinkley@sis.us
+Amazon.com,Amazon SLU,26000,Pape Mbaye,pmbaye@sis.us,Leo Kincannon,lkincannon@sis.us
+Amazon.com,Amazon SLU,26000,Patrick Olsen,polsen@sis.us,Michael Moore,mmoore@sis.us
+Amazon.com,Amazon SLU,26000,Qasim Smith,qsmith@sis.us,Christopher Engler,cengler@sis.us
+Amazon.com,Amazon SLU,26000,Rebecca Chargualaf,rfields@sis.us,Michael Wells,mwells@sis.us
+Amazon.com,Amazon SLU,26000,Rebecca Potter,rpotter@sis.us,Michael Wells,mwells@sis.us
+Amazon.com,Amazon SLU,26000,Richard Kord,rkord@sis.us,Kyle Bennett,kbennett@sis.us
+Amazon.com,Amazon SLU,26000,Richard Wold,rwold@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,Robert Cruz,rcruz@sis.us,Clell Pence,cpence@sis.us
+Amazon.com,Amazon SLU,26000,Robert Jackson,r.jackson321@rocketmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Saif Alhazami,salhazami@sis.us,Michael Kim,mkim@sis.us
+Amazon.com,Amazon SLU,26000,Sean Winter,swinter@sis.us,Kyle Bennett,kbennett@sis.us
+Amazon.com,Amazon SLU,26000,Sheralyn Andrews,sheralyn100@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Shermon Fultz,shermon_fultz@yahoo.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Stephen Burns,saburns3@gmail.com,Janss Woldseth,jwoldseth@sis.us
+Amazon.com,Amazon SLU,26000,Steven Willett,swillett@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Tara Elken,telken@sis.us,Kyle Bennett,kbennett@sis.us
+Amazon.com,Amazon SLU,26000,Tauna Tyler,ttyler@sis.us,Dennis Minton,dminton@sis.us
+Amazon.com,Amazon SLU,26000,Thomas Majercak,tmajercak@sis.us,William Barnhart,kbarnhart@sis.us
+Amazon.com,Amazon SLU,26000,Timothy Gonzales,tgonzales@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,Travis Wright,twright@sis.us,Amy Fantozzi,afantozzi@sis.us
+Amazon.com,Amazon SLU,26000,Tylor Jensen,tjensen@sis.us,Christian Binkley,cbinkley@sis.us
+Amazon.com,Amazon SLU,26000,William Barnhart,kbarnhart@sis.us,Jerry Tidwell,jtidwell@sis.us
+Amazon.com,Amazon SLU,26000,William Greenlaw,wgreenlaw@sis.us,Joshua Nelson,jnelson@sis.us
+Amazon.com,Amazon SLU,26000,William Guy,wguy@sis.us,Christopher Engler,cengler@sis.us
+Amazon.com,Amazon Manhattan LGA13,27150,Leroy Burns,lburns@sis.us,Thomas Majercak,tmajercak@sis.us
+Amazon.com,Amazon NYC-JFK7,27250,Adriano Rosas,arosas@sis.us,Thomas Majercak,tmajercak@sis.us
+Acorn,"Amazon Acorn WA, Seattle",27650,Christopher Frazier,cfrazier@sis.us,Linh Nguyen,lnguyen@sis.us
+Acorn,"Amazon Acorn WA, Seattle",27650,Triton Sarter,tsarter@sis.us,Linh Nguyen,lnguyen@sis.us
+Amazon.com,Amazon Seattle WA Rufus 1.0 Property Management,28700,Daniel Quick,dquick@sis.us,Linh Nguyen,lnguyen@sis.us
+Amazon.com,Amazon Seattle WA Rufus 1.0 Property Management,28700,Logan King,lking@sis.us,Linh Nguyen,lnguyen@sis.us
+Amazon.com,Amazon Seattle WA Rufus 1.0 Property Management,28700,Megan Abram,mabram@sis.us,Linh Nguyen,lnguyen@sis.us
+Amazon.com,Amazon Seattle WA Rufus 1.0 Property Management,28700,Noelle St.Germain,nstgermain@sis.us,Linh Nguyen,lnguyen@sis.us
+Amazon.com,Amazon Seattle WA Rufus 1.0 Property Management,28700,William Poole,wpoole@sis.us,Linh Nguyen,lnguyen@sis.us
+Amazon.com,Amazon Seattle WA Rufus SEA41 2.0 PM,28750,Kirsten Nelson,knelson@sis.us,Linh Nguyen,lnguyen@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Carl Jonathan Haymes,chaymes@sis.us,William Barnhart,kbarnhart@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Kenned Scott,kscott@sis.us,Carl Jonathan Haymes,chaymes@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Mitchell Collazos,mcollazos@sis.us,Carl Jonathan Haymes,chaymes@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Renaldo Carter,rcarter@sis.us,Carl Jonathan Haymes,chaymes@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Tory Coleman,tcoleman@siscorp.us,Carl Jonathan Haymes,chaymes@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Willie Watson,wwatson@sis.us,Carl Jonathan Haymes,chaymes@sis.us
+Miami Design District - Coastal Construction,Miami Design District,28900,Zebulun Anderson,zanderson@sis.us,Carl Jonathan Haymes,chaymes@sis.us
+eBay - Corporate,eBay Austin,31100,Bernadette King,bking@sis.us,Jerry Tidwell,jtidwell@sis.us
+eBay - Corporate,eBay Austin,31100,Darryl Robbins,drobbins@sis.us,Jerry Tidwell,jtidwell@sis.us
+eBay - Corporate,eBay Austin,31100,Jason Czerwinski,jczerwinski@siscorp.us,Darryl Robbins,drobbins@sis.us
+eBay - Corporate,eBay South Jordan,31900,Bryan Boynton,bboynton@sis.us,Todd Perkins,tperkins@sis.us
+eBay - Corporate,eBay South Jordan,31900,Dustin Lassiter,dustinlassiter@hotmail.com,Jefferson Judd,jjudd@sis.us
+eBay - Corporate,eBay South Jordan,31900,Jefferson Judd,jjudd@sis.us,Todd Perkins,tperkins@sis.us
+eBay - Corporate,eBay South Jordan,31900,Joseph Glad,jglad5149@msn.com,Jefferson Judd,jjudd@sis.us
+eBay - Corporate,eBay South Jordan,31900,Samantha Krieck,sammiann90@gmail.com,Jefferson Judd,jjudd@sis.us
+eBay - Corporate,eBay South Jordan,31900,Todd Perkins,tperkins@sis.us,Jerry Tidwell,jtidwell@sis.us
+eBay - Corporate,eBay SLC D2,32200,Jason Holly,jholly@sis.us,Jerry Tidwell,jtidwell@sis.us
+eBay - Corporate,eBay SLC D2,32200,Quinton Smart,qsmart@siscorp.us,Jason Holly,jholly@sis.us
+eBay - Corporate,"eBay CA, San Jose RSOC",32450,Mario Bravo,mbravo@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Dino Kikanovic,dkikanovic@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Eduardo Sanchez Contreras,econtreras@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Justin Sigmon,jsigmon@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Mark Dulay,mdulay@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Michael Martinez,mmartinez@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Stephen Perry,sperry@sis.us,Jerry Tidwell,jtidwell@sis.us
+eBay - Corporate,eBay San Jose South (Park),32500,Tadro Labitad,tlabitad@sis.us,Jesse Antonio,jantonio@sis.us
+eBay - Corporate,eBay San Francisco StubHub,33000,James Enos,jenos@sis.us,Jesse Antonio,jantonio@sis.us
+"Ellie Mae, Inc.","Ellie Mae CA, Pleasanton",33300,Joshua Barrier,jbarrier@sis.us,Robert Bastida,bbastida@sis.us
+"Apple, Inc./Mesa","Apple AZ, Mesa",40100,Brondon Eldridge,beldridge@sis.us,Roy Emanuel,remanuel@sis.us
+"Apple, Inc./Mesa","Apple AZ, Mesa",40100,Jeffrey Grupp,jgrupp@sis.us,Roy Emanuel,remanuel@sis.us
+"Apple, Inc./Mesa","Apple AZ, Mesa",40100,Martin Orozco,morozco@sis.us,Roy Emanuel,remanuel@sis.us
+"Apple, Inc./Mesa","Apple AZ, Mesa",40100,Rolando Rodriguez,rrodriguez@sis.us,Roy Emanuel,remanuel@sis.us
+"Apple, Inc./Mesa","Apple AZ, Mesa",40100,Roy Emanuel,remanuel@sis.us,William Kamaunu,wkamaunu@sis.us
+SIS Corporate,Special Operations - Executive Protection,50000,Abel Sanchez,asanchez@sis.us,Chris Cesena,ccesena@sis.us
+SIS Corporate,Special Operations - Executive Protection,50000,Chris Cesena,ccesena@sis.us,Jim Mulvihill,jmulvihill@sis.us
+SIS Corporate,Special Operations - Executive Protection,50000,Danny Martinez,dmartinez@sis.us,Jim Mulvihill,jmulvihill@sis.us
+SIS Corporate,Special Operations - Executive Protection,50000,Keith Jacobs,kjacobs@sis.us,Chris Cesena,ccesena@sis.us
+SIS Corporate,Special Operations - Executive Protection,50000,Tom Dinnauer,tdinnauer@sis.us,Jim Mulvihill,jmulvihill@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Charles Odle,codle@sis.us,Matthew Johnson,mjohnson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Freddy Ramires,framires@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Jerald Williams,jwilliams@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Jose Lopez,jlopez@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Jose Zamudio,zamudiojg@gmail.com,Mauricio Bautista,mbautista@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Kevin Kleinhenz,kkleinhenz@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Maurice Clark,mclark@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Mauricio Bautista,mbautista@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Neal Wilson,nwilson@sis.us,Shannon McCaffrey,smccaffrey@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Shannon McCaffrey,smccaffrey@sis.us,Jim Mulvihill,jmulvihill@sis.us
+SIS Corporate,Special Operations - Secure Logistics,50000,Thomas Mccormick,tmccormick@sis.us,Neal Wilson,nwilson@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Adrian Cox,acox@sis.us,Lori Perry-Morrow,lperry@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Andrew Sairrino,asairrino@sis.us,Brian West,bwest@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Averell Brown,abrown@sis.us,Lori Perry-Morrow,lperry@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Brian West,bwest@sis.us,Lori Perry-Morrow,lperry@sis.us
+SIS Corporate,Special Operations - Special Events,50000,David Ramirez,dramirez@sis.us,Brian West,bwest@sis.us
+SIS Corporate,Special Operations - Special Events,50000,John Dove,jdove@sis.us,Brian West,bwest@sis.us
+SIS Corporate,Special Operations - Special Events,50000,John Jones,jjones@sis.us,Brian West,bwest@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Jonathan Tomas Arambulo,jarambulo@sis.us,Brian West,bwest@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Matt Jaroscak,mjaroscak@sis.us,Jim Mulvihill,jmulvihill@sis.us
+SIS Corporate,Special Operations - Special Events,50000,Michelle Arellano,marellano@sis.us,Brian West,bwest@sis.us
+Symantec Corporation,Symantec EP,51160,Daniel Eggert,deggert@sis.us,Chris Cesena,ccesena@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Charlemagne Anagaran,canagaran@sis.us,Danny Nguyen,dnguyen@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Danny Nguyen,dnguyen@sis.us,Kimberly Hudson,khudson@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Don Adrian Francisco,dfrancisco@sis.us,Danny Nguyen,dnguyen@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Michael Packard,packman1980@me.com,Danny Nguyen,dnguyen@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Oscar PartidaZuniga,ozuniga@sis.us,Danny Nguyen,dnguyen@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Rodney Spann,rspann@sis.us,Danny Nguyen,dnguyen@sis.us
+"Apple, Inc.","Apple Corp. Engineer Escort, Field Engineering Campus",55110,Tiffany Taylor,ttaylor@sis.us,Danny Nguyen,dnguyen@sis.us
+SIS Corporate,Talent Management,57000,Birthenne Chandler,chandlerb@sbcglobal.net,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Candance Benjamin,candybe32@gmail.com,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Edgar Barajas Cornejo,edgarbarajas87@gmail.com,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Jose Campos,joseluis.2kx@gmail.com,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Kenneth Guice,guice@pacbell.net,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Robert Dycus,aackpht@yahoo.com,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Sherre Giles,sherfunta@yahoo.com,Nanci Velasco,nvelasco@sis.us
+SIS Corporate,Talent Management,57000,Sylvia Benjamin,sylviabenjamin@yahoo.com,Nanci Velasco,nvelasco@sis.us
+SFPM,SFPM Master,57050,Paul Kofman,pkofman@sis.us,Chris Cesena,ccesena@sis.us
+SIS Corporate,Special Operations Directors,59999,Lori Perry-Morrow,lperry@sis.us,Jim Mulvihill,jmulvihill@sis.us
+SIS Corporate,SIS Administration,70000,Jerry Tidwell,jtidwell@sis.us,John Spesak,jspesak@sis.us
+SIS Corporate,SIS Administration,70000,Jim Mulvihill,jmulvihill@sis.us,John Spesak,jspesak@sis.us
+SIS Corporate,SIS Administration,70000,John Spesak,jspesak@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Administration,70000,Neil Gieleghem,neil@ngattorney.com,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Administration,70000,Thomas Stevens,tstevens@sis.us,John Spesak,jspesak@sis.us
+SIS Corporate,SIS Administration,70000,Troy August,taugust@sis.us,John Spesak,jspesak@sis.us
+SIS Corporate,SIS Administration,70000,Valerie Melo,vmelo@sis.us,Holly Drew,hdrew@sis.us
+SIS Corporate,SIS Corp Administration (Brazil),70010,David Morais,dmorais@sissegurancaprivada.com.br,Pedro Filho,pfilho@sisbrasilseguranca.com.br
+SIS Corporate,SIS Corp Administration (Brazil),70010,Marcelo Ferolla,mferolla@sissegurancaprivada.com.br,David Morais,dmorais@sissegurancaprivada.com.br
+SIS Corporate,SIS Corp Administration (Brazil),70010,Pedro Filho,pfilho@sisbrasilseguranca.com.br,John Spesak,jspesak@sis.us
+SIS Corporate,SIS Corp Payroll,70100,Alan Quach,aquach@sis.us,Maura Moelter,mmoelter@sis.us
+SIS Corporate,SIS Corp Payroll,70100,Janet Roman,jgonzalez@sis.us,Maura Moelter,mmoelter@sis.us
+SIS Corporate,SIS Corp Payroll,70100,Maura Moelter,mmoelter@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp Finance,70200,Edward Bosetti,tbosetti@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Corp Finance,70200,Emily Tibor,etibor@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp Finance,70200,Lynn Maung,lmaung@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp Finance,70200,Travis Ladd,tladd@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp Invoicing,70300,Abraham Sanchez,abrahamsanchez@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp Invoicing,70300,Diona LoresHernandez,dlhernandez@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp Invoicing,70300,Vincent Montemayor,vmontemayor@sis.us,Edward Bosetti,tbosetti@sis.us
+SIS Corporate,SIS Corp HR,70400,Ashley Bowen,abowen@sis.us,Julia Prybyla,jblair@sis.us
+SIS Corporate,SIS Corp HR,70400,Jeff Venturini,jventurini@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Corp HR,70400,Julia Prybyla,jblair@sis.us,Jeff Venturini,jventurini@sis.us
+SIS Corporate,SIS Corp Benefits,70500,Kevin Reid,kreid@sis.us,Jeff Venturini,jventurini@sis.us
+SIS Corporate,SIS Corp GSOC,70600,Audrey Villinger,avillinger@sis.us,Robert Bastida,bbastida@sis.us
+SIS Corporate,SIS Corp GSOC,70600,Cayetano Antolino,cantolino@sis.us,Audrey Villinger,avillinger@sis.us
+SIS Corporate,SIS Corp GSOC,70600,Chelsea McNally,cmcnally@sis.us,Cayetano Antolino,cantolino@sis.us
+SIS Corporate,SIS Corp GSOC,70600,Hector Ramos,hramos@sis.us,Cayetano Antolino,cantolino@sis.us
+SIS Corporate,SIS Corp GSOC,70600,Joseph Williams,joewilliams@sis.us,Audrey Villinger,avillinger@sis.us
+SIS Corporate,SIS Corp GSOC,70600,Robert Bastida,bbastida@sis.us,Jerry Tidwell,jtidwell@sis.us
+SIS Corporate,SIS Corp Intel GSOC,70600,Joana Kim,joanakim@sis.us,John Clarke,jclarke@sis.us
+SIS Corporate,SIS Corp Intel GSOC,70600,John Clarke,jclarke@sis.us,Audrey Villinger,avillinger@sis.us
+SIS Corporate,SIS Corp Intel GSOC,70600,Thomas Proctor,tproctor@sis.us,John Clarke,jclarke@sis.us
+SIS Corporate,SIS Corp BSOC (Brazil),70650,Larissa Campos,lcampos@sissegurancaprivada.com.br,Pedro Filho,pfilho@sisbrasilseguranca.com.br
+SIS Corporate,SIS Corp BSOC (Brazil),70650,Luiz Andre Birck Teixeira,lteixeira@sissegurancaprivada.com.br,Guilherme Barbalho,gbarbalho@sissegurancaprivada.com.br
+SIS Corporate,SIS Corp Internal Services,70700,Holly Drew,hdrew@sis.us,John Spesak,jspesak@sis.us
+SIS Corporate,SIS Corp Internal Services,70700,Justin Royce,jroyce@sis.us,Danielle Pavlecic,dpavlecic@sis.us
+SIS Corporate,SIS Corp Travel,70700,Kacey Irvan,kirvan@sis.us,Vincent Claps,vclaps@sis.us
+SIS Corporate,SIS Corp Travel,70700,Vincent Claps,vclaps@sis.us,Holly Drew,hdrew@sis.us
+SIS Corporate,SIS Corp Uniforms,70700,Henry Kuan,hkuan@sis.us,Holly Drew,hdrew@sis.us
+SIS Corporate,SIS Corp Uniforms,70700,Hunter Jensen,hjensen@sis.us,Henry Kuan,hkuan@sis.us
+SIS Corporate,SIS Corp Vehicles,70750,Allan Ramirez,aramirez@sis.us,Vincent Claps,vclaps@sis.us
+SIS Corporate,SIS Corp IT,70900,Kevin Shenk,kshenk@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Corp Facilities,71000,John Boyd,jboyd@sis.us,Holly Drew,hdrew@sis.us
+SIS Corporate,SIS Corp Facilities,71000,Justin Olson,jolson@sis.us,John Boyd,jboyd@sis.us
+SIS Corporate,SIS Corp Recruiting,71100,Alexander Martin,amartin@sis.us,Jeff Venturini,jventurini@sis.us
+SIS Corporate,SIS Corp Recruiting,71100,David Trinh,dtrinh@sis.us,Jeff Venturini,jventurini@sis.us
+SIS Corporate,SIS Corp Recruiting,71100,Eduardo Gomes,egomes@sis.us,Jeff Venturini,jventurini@sis.us
+SIS Corporate,SIS Corp Recruiting,71100,Eric Stifano,estifano@sis.us,Jeff Venturini,jventurini@sis.us
+SIS Corporate,SIS Corp Recruiting,71100,Kathryn Burt,kcburt@sis.us,Eric Stifano,estifano@sis.us
+SIS Corporate,SIS Corp Training,71200,Alfredo Kuilan,akuilan@sis.us,Michael Kirkendall,mkirkendall@sis.us
+SIS Corporate,SIS Corp Training,71200,Derek Ruhland,druhland@sis.us,Michael Kirkendall,mkirkendall@sis.us
+SIS Corporate,SIS Corp Training,71200,Dmitri Malcolm,dmalcolm@sis.us,Derek Ruhland,druhland@sis.us
+SIS Corporate,SIS Corp Training,71200,Jonathan Robbins,jrobbins@sis.us,Maureen Eller,eeller@sis.us
+SIS Corporate,SIS Corp Training,71200,Kim Pecheos,kpecheos@sis.us,Michael Kirkendall,mkirkendall@sis.us
+SIS Corporate,SIS Corp Training,71200,Kristine Ota,kota@sis.us,Derek Ruhland,druhland@sis.us
+SIS Corporate,SIS Corp Training,71200,Mark Atteberry,matteberry@sis.us,Maureen Eller,eeller@sis.us
+SIS Corporate,SIS Corp Training,71200,Maureen Eller,eeller@sis.us,Derek Ruhland,druhland@sis.us
+SIS Corporate,SIS Corp Training,71200,Michael Kirkendall,mkirkendall@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Corp Training,71200,Peter Marotto,pmarotto@sis.us,Alfredo Kuilan,akuilan@sis.us
+SIS Corporate,SIS Corp Training,71200,Robert Gamez,rgamez@sis.us,Alfredo Kuilan,akuilan@sis.us
+SIS Corporate,SIS Corp Training,71200,Stephan Cavin,scavin@sis.us,Kim Pecheos,kpecheos@sis.us
+SIS Corporate,SIS Corp Training,71200,Victor Esquivel,vesquivel@sis.us,Stephan Cavin,scavin@sis.us
+SIS Corporate,SIS Corp SpecOps,71300,Joana Korsakas,jkorsakas@sis.us,Adrian Cox,acox@sis.us
+SIS Corporate,SIS Corp SpecOps,71300,Magali Cortez,mcortez@sis.us,Adrian Cox,acox@sis.us
+SIS Corporate,SIS Corp Administration,71400,Cynthia Marin,cmarin@sis.us,Danielle Pavlecic,dpavlecic@sis.us
+SIS Corporate,SIS Corp Licensing,71500,Charles Spilewski,cspilewski@sis.us,Courtney Chobanian,cchobanian@sis.us
+SIS Corporate,SIS Corp Licensing,71500,Courtney Chobanian,cchobanian@sis.us,Holly Drew,hdrew@sis.us
+SIS Corporate,SIS Corp Software Solutions,71800,Fred Cerruti,mcerruti@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Corp Software Solutions,71800,Harun Riyanto,hriyanto@sis.us,Fred Cerruti,mcerruti@sis.us
+SIS Corporate,SIS Corp Software Solutions,71800,Paul Binneboese,pbinneboese@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Corporate,SIS Corp Software Solutions,71800,Sara Lufrano,slufrano@sis.us,Thomas Seltz,tseltz@sis.us
+SIS Culver City Office,SIS Corp - Talent Management,71900,Danielle Pavlecic,dpavlecic@sis.us,Holly Drew,hdrew@sis.us
+SIS Culver City Office,SIS Corp - Talent Management,71900,Nanci Velasco,nvelasco@sis.us,Danielle Pavlecic,dpavlecic@sis.us
+SIS Corporate,Retail (SIS Internal),80000,Abigail Moylan,amoylan@sis.us,Thomas Stevens,tstevens@sis.us
+Nexus,Apple Retail - NE,81200,Christopher Orsogna,corsogna@sis.us,David DeStefano,ddestefano@sis.us
+Nexus,Retail - Apple - NJ,81204,Anthony Baglino,abaglino@sis.us,Christopher Orsogna,corsogna@sis.us
+Nexus,Apple Retail - SE,81300,Antonio Rodriguez,arodriguez@siscorp.us,Eric Hernandez,ehernandez@sis.us
+Nexus,Apple Retail - SE,81300,Eric Hernandez,ehernandez@sis.us,David DeStefano,ddestefano@sis.us
+Nexus,Apple Retail - SE,81300,Eric Serrano,eserrano@sis.us,David DeStefano,ddestefano@sis.us
+Nexus,Apple Retail - SE,81300,Henry DelRiego,hdelriego@sis.us,David DeStefano,ddestefano@sis.us
+Nexus,Apple Retail - Midwest,81400,Ernest Relford,erelford@sis.us,Ryan Flaska,rflaska@sis.us
+Nexus,Apple Retail - Midwest,81400,Joseph Carpenter,jcarpenter@sis.us,Ryan Flaska,rflaska@sis.us
+Nexus,Apple Retail - Midwest,81400,Ryan Flaska,rflaska@sis.us,David DeStefano,ddestefano@sis.us
+Nexus,Retail - Apple - TX,81404,John Mcdonough,jmcdonough@sis.us,Christopher Cochrane,ccochrane@sis.us
+Nexus,Apple Retail - NW,81500,Dillon Armistead,darmistead@sis.us,Amit Prabhakar,aprabhakar@sis.us
+Nexus,Apple Retail - NW,81500,Henry Martinez,hmartinez@sis.us,Amit Prabhakar,aprabhakar@sis.us
+Nexus,Apple Retail - NW,81500,Joshua Burke,joshuaburke@sis.us,Amit Prabhakar,aprabhakar@sis.us
+Nexus,Apple Retail - NW,81500,Nubia Ramirez,nramirez@sis.us,Christopher Cochrane,ccochrane@sis.us
+Nexus,Apple Retail - NW,81500,Yared Birmeji,ybirmeji@siscorp.us,Joshua Burke,joshuaburke@sis.us
+Nexus,Apple Retail - CA - Southern,81600,Glen Pacis,gpacis@sis.us,Christopher Cochrane,ccochrane@sis.us
+Nexus,Apple Retail - HI,81700,Daniel Osorio-Garcia,dgarcia@sis.us,Amit Prabhakar,aprabhakar@sis.us
+Cartier - 59th Street,Cartier,82100,Brandon Mishoe,brandonmishoe@gmail.com,Christopher Orsogna,corsogna@sis.us
+SIS Corporate,Retail Directors,89999,Victor Gomes,vgomes@sis.us,Thomas Stevens,tstevens@sis.us
+SIS Corporate,Retail Managers,89999,Amit Prabhakar,aprabhakar@sis.us,Christopher Cochrane,ccochrane@sis.us
+SIS Corporate,Retail Managers,89999,Christopher Cochrane,ccochrane@sis.us,Victor Gomes,vgomes@sis.us
+SIS Corporate,Retail Managers,89999,Danielle Slater,dslater@sis.us,Thomas Stevens,tstevens@sis.us
+SIS Corporate,Retail Managers,89999,David DeStefano,ddestefano@sis.us,Victor Gomes,vgomes@sis.us
+SIS Corporate,Retail Managers,89999,Diana Hastings,dhastings@sis.us,Thomas Stevens,tstevens@sis.us

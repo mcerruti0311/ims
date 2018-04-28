@@ -11,6 +11,8 @@ Employee Transaction
 * Validation Rule Ship to Account required
 * Contact > Button > IMS button
 * Contact > Page Layouts > SIS Employee
+* Picklist Value Sets
+ * Logo Location
 
 
 

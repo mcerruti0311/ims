@@ -1,6 +1,8 @@
 ## Advance Online
 
 12 weeks No more than (6/28/2018)
+
+
 Contacts
 Location_Data__c
 Internal Store
@@ -77,6 +79,6 @@ Yes, as long as we have the correct information from your team, we will be able 
 
 **Will the user receive a tracking number for shipments?**
  Yes, this is tied to all confirmation numbers.  They can access this through the web portal reporting.
- 
+
 **Will the user be able to see on hand / available inventory?**
   All products shown on our portals are considered always available in whatever size they need, so we do not show on hand/available inventory.  Again, if it’s shown on our portal – it is considered in stock for any order.  We do have inventory reports available on the web portal available at any time and it is considered real-time reporting.  It can be everything up until the day before you are pulling reports.  It unfortunately does not calculate any orders placed the same day you are pulling the report, but is updated overnight daily.
