@@ -1,6 +1,8 @@
 public class contactCreator {
   public static void createContacts() {
 
+    Integer contactsToCreate = 10;  // Max 10
+
 // Get record Id for SIS Corporate
     List<Account> sisAccount = new List<Account> (
      [
@@ -18,7 +20,7 @@ public class contactCreator {
         [
             SELECT Id
             FROM Location_Data__c
-            WHERE Name = 'SIS Corp Administration'
+            WHERE Name = '71400 - SIS Corp Administration'
             LIMIT 1
         ]
     );
@@ -56,7 +58,7 @@ public class contactCreator {
 
 	List<String> fullNames = new List<String>();
     Integer c = 0;
-    for(Integer i = 10; i > 0; i--){
+    for(Integer i = contactsToCreate; i > 0; i--){
         Double FNI = Math.random() * 9;
         Double LNI = Math.random() * 9;
         Integer firstNameIndex = Math.round(FNI);
@@ -71,7 +73,7 @@ public class contactCreator {
 
         if(!fullNames.contains(fullName)){
         	fullNames.add(fullName);
-            i = 11 - fullNames.size();
+            i = (contactsToCreate + 1) - fullNames.size();
 
             Contact newContact = new Contact();
             	newContact.FirstName = firstName;
@@ -90,9 +92,9 @@ public class contactCreator {
         } else {i++;}
 
         System.debug('I: ' + i + ' C: ' + c);
-        if(c>49) i=0;
+        if(c>(contactsToCreate * 5)) i=0;
     }
     System.debug('Full Names: ' + fullNames.size() + ' Tries: ' + c);
-    System.debug(fullNames);        
+    System.debug(fullNames);
   }
 }

@@ -47,11 +47,11 @@ public class vendorAccountCreator {
     Insert acct04;
 
     Account acct05 = new Account();
-      acct05.Name = 'West Coast Screen Printing';
+      acct05.Name = 'Advanced Online';
       acct05.Type = 'Vendor - Uniforms';
       acct05.Account_Category__c = 'Uniforms - General';
       acct05.RecordTypeId = subContractVendor;
-      acct05.Phone = '818-779-1033';
+      acct05.Phone = '972-471-5400';
     Insert acct05;
 
   }
