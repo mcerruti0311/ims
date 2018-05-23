@@ -1,0 +1,17 @@
+Contact Master Lookup
+Looks up Contact by Employee ID
+Returns Variable sovContact
+* Name
+* LastName
+* FirstName
+* Email
+* Employee_Number__c
+* Title
+* Employment_Status__c
+* Full_or_Part_Time__c
+* Salary_or_Hourly__c
+* Department
+* Division
+* ReportsToId
+* Master_Job_Code_For_Time_Keeping__c
+* Id
