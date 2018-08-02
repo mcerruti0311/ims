@@ -1,0 +1,46 @@
+<!-- Removes assistance link -->
+<style type="text/css">
+.wFormContainer .supportInfo {
+    display: none;
+ }
+
+/* Changes field section title text to white*/
+.wForm legend {
+  color: white !important;
+  }
+
+/* Changes opacity on non-selected radio buttons*/
+.wForm .oneChoice.maskControl label, .wForm form .oneChoice.maskControl .label {
+  opacity: .7;
+  margin-left: 0;
+  }
+
+/* Formats styling for title*/
+#sis-logo{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+#title{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+/* Moves "Submit" Button to right of page*/
+#submit_button, #primaryAction {
+    float: right !important;
+}
+
+/* Changes field labels to smaller/black/thinner text*/
+.wFormContainer .label {
+  font-weight:300 !important;
+ 	font-size:small !important;
+ 	color:black !important;
+  }
+
+/* Removes left padding on radio buttons*/
+.wForm .oneChoice.maskControl label, .wForm form .oneChoice.maskControl .label {
+  padding-left: 0.0em;
+  color: #706e6b;
+}
+</style>

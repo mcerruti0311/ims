@@ -1,0 +1,104 @@
+<style type="text/css">
+  .wFormContainer .supportInfo, .wForm a.removeLink, .wForm a.duplicateLink,
+  input.primaryAction  {
+    display: none;
+ }
+
+/* Changes field section title text to white*/
+.wForm legend {
+ color: white !important;
+ }
+
+/* Changes opacity on non-selected radio buttons*/
+.wForm .oneChoice.maskControl label, .wForm form .oneChoice.maskControl .label {
+ opacity: .7;
+ margin-left: 0;
+ }
+
+/* Formats styling for title*/
+#sis-logo{
+ display:inline-block;
+ vertical-align:middle;
+}
+
+#title{
+ display:inline-block;
+ vertical-align:middle;
+}
+
+/* Moves "Submit" Button to right of page*/
+#submit_button, #primaryAction {
+   float: right !important;
+}
+
+/* Changes field labels to smaller/black/thinner text*/
+.wFormContainer .label {
+ font-weight:300 !important;
+font-size:small !important;
+color:black !important;
+ }
+
+/* Removes left padding on radio buttons*/
+.wForm .oneChoice.maskControl label, .wForm form .oneChoice.maskControl .label {
+ padding-left: 0.0em;
+ color: #706e6b;
+}
+
+legend[id^="tfa_137"] {
+background:#FF8C00 !important;
+  }
+
+
+.wFormContainer .wFormTitle { display: none; }
+</style>
+
+<script
+   src="https://code.jquery.com/jquery-3.2.0.min.js"
+   integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+   crossorigin="anonymous"></script>
+<script>
+function todaysDate() {
+  var today = new Date();
+  var date = (today.getMonth()+1)+'/'+today.getDate()+'/'+today.getFullYear();
+  return date;
+  }
+
+function getdate() {
+  var newdate = new Date();
+  newdate.setDate(newdate.getDate() + 14);
+  var dd = newdate.getDate();
+  var mm = newdate.getMonth() + 1;
+  var y = newdate.getFullYear();
+  var FormattedDate = mm + '/' + dd + '/' + y;
+  return FormattedDate;
+  }
+
+ $(document).ready(function(){
+
+ //declares function to replace href in hyperlink text with value of a field in repeat section
+  function dynamicLinks(linkClass, fieldId) {
+
+      //creates selector statement with fieldId
+      var selection = 'input[id^="' + fieldId + '"]';
+
+      //intializes array to store new links
+      var linkArr = [];
+
+      //adds links to array from field in repeat section
+      $(selection).each(function() {
+        linkArr.push($(this).val());
+      });
+
+       //replaces the class of hyperlinks with values from the link array
+       $(linkClass).attr("href", function(i, origLink) {
+      return origLink.replace(/#/, linkArr[i]);
+       });
+
+     };
+
+  // This is the field ID to update with your value from Salesforce field ID
+  dynamicLinks(".clickableLink", "tfa_66");
+
+});
+
+</script>
