@@ -31,7 +31,7 @@ public class vendorAccountCreator {
     Insert acct02;
 
     Account acct03 = new Account();
-      acct03.Name = 'Port Autority';
+      acct03.Name = 'Port Authority';
       acct03.Type = 'Vendor - Uniforms';
       acct03.Account_Category__c = 'Uniforms - General';
       acct03.RecordTypeId = subContractVendor;

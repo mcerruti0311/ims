@@ -58,6 +58,9 @@ public class contactCreator {
 
 	List<String> fullNames = new List<String>();
     Integer c = 0;
+    String employeeNumber = '';
+    String paddedEmployeeNumber = '';
+
     for(Integer i = contactsToCreate; i > 0; i--){
         Double FNI = Math.random() * 9;
         Double LNI = Math.random() * 9;
@@ -70,6 +73,8 @@ public class contactCreator {
         System.debug(fullNames.contains(fullName));
 
         c++;
+		employeeNumber = String.valueOf(c);
+        paddedEmployeeNumber = employeeNumber.leftPad(5,'0');
 
         if(!fullNames.contains(fullName)){
         	fullNames.add(fullName);
@@ -79,7 +84,7 @@ public class contactCreator {
             	newContact.FirstName = firstName;
             	newContact.LastName = lastName;
             	newContact.AccountId = sisAccountId;
-            	newContact.Employee_Number__c = String.valueOf(c);
+            	newContact.Employee_Number__c = paddedEmployeeNumber;
             	newContact.Email = firstName + '_' + lastName + '@example.com';
             	newContact.Employment_Status__c = 'Active';
             	newContact.SIS_Relationship__c = 'SIS Employee';

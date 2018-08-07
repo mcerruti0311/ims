@@ -23,7 +23,7 @@ public class imsCreator {
     // Item variables
     String manufacturerName = 'Port Authority';
     String color = 'Black';
-    String vendorName = 'West Coast Screen Printing';
+    String vendorName = 'Advanced Online';
     String mfgNumber = 'K497';
 
 

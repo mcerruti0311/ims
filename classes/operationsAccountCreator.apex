@@ -20,14 +20,14 @@ public class operationsAccountCreator {
       acct01.Name = 'Amazon.com';
       acct01.Type = accountType;
       acct01.RecordTypeId = client;
-      acct01.Payment_Terms__c = 'Net 45'
+      acct01.Payment_Terms__c = 'Net 45';
     Insert acct01;
 
     Account acct02 = new Account ();
       acct02.Name = 'Apple - Cupertino';
       acct02.Type = accountType;
       acct02.RecordTypeId = client;
-      acct02.Payment_Terms__c = 'Net 45'
+      acct02.Payment_Terms__c = 'Net 45';
     Insert acct02;
   }
 }
