@@ -1,12 +1,17 @@
-<apex:page
-  lightningStylesheets="true"
+<apex:page lightningStylesheets="true"
   standardController="IMS_Shift_Transaction__c"
 >
+
 <html>
- <h3>Inventory Management System</h3>
+    <head>
+        <apex:includeLightning />
+    </head>
+    <body>
+     <h3>Inventory Management System - Shift Item Issue</h3>
+    </body>
+
 </html>
-<flow:interview
-  name="IMS_Shift_Item_Issuer"
+<flow:interview name="IMS_Shift_Item_Issuer"
 />
  <script>
     // Set focus
