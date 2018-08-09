@@ -1,0 +1,24 @@
+Table,Column,Field,Type,Attributes,Example,Notes
+,,IMS_Transaction__c,,,,
+,,Item_Detail__c,,,,Item No
+,,Name,,,,
+,,Notes__c,,,,
+Line Items,,Qty_Ordered__c,Number,Integer,10,
+,,Vendor_Detail_ID__c,,,,
+,,IMS_Transaction__r.Billing_Location__c,,,,
+,,IMS_Transaction__r.Employee__c,,,,
+,,IMS_Transaction__r.Estimated_Ship_Date__c,,,,
+,,IMS_Transaction__r.Name,,,,
+,,IMS_Transaction__r.On_Order_Employee__c,,,,
+,,IMS_Transaction__r.Order_Date__c,,,,
+,,IMS_Transaction__r.Qty_On_Order__c,,,,
+,,IMS_Transaction__r.Ship_Date__c,,,,
+,,IMS_Transaction__r.Ship_To_Account__c,,,,
+,,IMS_Transaction__r.Shipping_Facility__c,,,,
+,,IMS_Transaction__r.Shipping_Method__c,,,,
+,,IMS_Transaction__r.Stocking_Facility__c,,,,
+,,IMS_Transaction__r.Transaction_By__c,,,,
+,,IMS_Transaction__r.Transaction_Status__c,Text,"Ordered, Shipped, Back Order, Canceled",Ordered,Restricted List
+,,IMS_Transaction__r.Transaction_Type__c,Text,"Inventory Order, Employee Order",Inventory,Restricted List
+,,IMS_Transaction__r.Vendor_Order_ID__c,,,,
+,,IMS_Transaction__r.Vendor_Order_No__c,,,,

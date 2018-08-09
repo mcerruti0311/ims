@@ -1,8 +1,13 @@
-<apex:page lightningStylesheets="true" standardController="IMS_Transaction__c">
+<apex:page
+  lightningStylesheets="true"
+  standardController="IMS_Shift_Transaction__c"
+>
 <html>
  <h3>Inventory Management System</h3>
 </html>
-<flow:interview name="IMS_Transaction_Landing_Page" />
+<flow:interview
+  name="IMS_Shift_Item_Issuer"
+/>
  <script>
     // Set focus
         setFocus();
@@ -21,26 +26,18 @@
 
         function setFocus() {
             var focusTag;
-            if (focusTag = getApexElementByID("input","tbx_Employee_Number\.input")){
+            if (focusTag = getApexElementByID("input","tbx_Employee\.input")){
                 //first page focus
                 focusTag.focus();
             } else if(focusTag = getApexElementByID("input",
                              "tbx_Item_SKU\.input")){
                 //second page focus
                 focusTag.focus();
-           } else if(focusTag = getApexElementByID("input",
-                             "rdo_Issue_Items.choice_IssueItemsYes\.radio")){
-                //third page focus
-                focusTag.focus();
-           } else if(focusTag = getApexElementByID("input",
-                             "date_Issue_Date\.input")){
-                //fourth page focus
-                focusTag.focus();
            }
         }
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script>
 // Enter key press upon 5 digits in the barcode field.
@@ -51,7 +48,7 @@ function textLength(value){
    return true;
 }
 
-getApexElementByID("input","tbx_Employee_Number\.input").onkeyup = function(){
+getApexElementByID("input","tbx_Employee\.input").onkeyup = function(){
      if(!textLength(this.value))     (function ($) {
         $(document).ready(function () {
                 $("input.FlowNextBtn").click();
@@ -60,5 +57,25 @@ getApexElementByID("input","tbx_Employee_Number\.input").onkeyup = function(){
     })(jQuery.noConflict(true));
 }
 </script>
+
+<script>
+// Enter key press upon 8 digits in the barcode field.
+
+function testBarcodeLength(value){
+   var barcodeLength = 8;
+   if(value.length >= barcodeLength) return false;
+   return true;
+}
+
+getApexElementByID("input","tbx_Item_SKU\.input").onkeyup = function(){
+     if(!testBarcodeLength(this.value))     (function ($) {
+        $(document).ready(function () {
+                $("input.FlowNextBtn").click();
+                $("input.FlowFinishBtn").click();
+        });
+    })(jQuery.noConflict(true));
+}
+</script>
+
 
 </apex:page>
