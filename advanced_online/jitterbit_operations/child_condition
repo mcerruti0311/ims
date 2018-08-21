@@ -1,0 +1,4 @@
+<trans>
+$instanceReference = GetInstance();
+true;
+</trans>
