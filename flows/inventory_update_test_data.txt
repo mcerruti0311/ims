@@ -1,0 +1,17 @@
+Transaction Status
+Received Partial
+Received Complete
+Stocked
+Issued
+
+Inventory Status
+Received
+Placed In Stock
+Issued
+
+
+Test SIS Barcode 
+ 6-34-3G4007 
+ 6-34-3G2916
+ 6-33-3G21LB
+Test Vendor Order Number: 3256340
