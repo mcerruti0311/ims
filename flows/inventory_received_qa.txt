@@ -1,0 +1,66 @@
+Sandbox IMS2
+Use the Utilities for Lightning App
+
+Use the IMS Transactions view All Employee Orders
+
+IMS Transaction Settins for Testing
+Record Type = Employee Orders
+Transaction Type = Employee Order
+Transaction Status = Ordered
+
+
+IMS Transaction Details for testing
+Record Type = Employee Orders
+Type = Employee Order
+Transaction Type = Employee Order
+Transaction Status = Ordered
+Inventory Status = Ordered
+
+Qty Ordered = ?
+Qty Stock = 0
+Qty Issue = 0
+Qty Returned = 0
+
+
+
+Ordered Date = any value
+Ship Date, Received Date, Stock Date, Issued Date, Return Date = null
+
+
+
+IMT-000000015
+Vendor Order No. 3256336
+6-34-3G4007 2
+6-33-3G21LB 2
+
+Launch flow and use run with latest option
+
+1) Select Receipt click [Next]
+2) Vendor Oder Number 
+3) IMS Transaction (remove)
+4) Item SKU, scan once for each item in qty.
+5) After Last Item leave blank and click [Next] (lacks knowledge)
+6) Updated X records 
+
+Transaction Details
+Qty Received Entry should = x number of times scanned
+Received Date should be today
+Transaction Status should = Placed In Stock
+
+
+
+Review IMT and IMTD Records
+
+IMT
+Transaction Status should update to "Stocked"
+
+IMTD
+Qty Received needs to not be > Qty Ordered (same as issue)
+
+
+ToDo
+Workflow to mark Received Date when Qty Received Entry = Qty Ordered update Received Date to Today();
+
+
+Flow: sovTransactionDetail
+

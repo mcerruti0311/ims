@@ -1,0 +1,40 @@
+Sandbox: ims2
+Use Utilities Lightning App
+Use view IMS Transaction Details > All Employee Orders - Issue
+
+Flows Used
+
+Flow: IMS Transaction Landing Page
+Subflow: Contact Master Lookup
+Subflow: IMS Detail Item Lookup
+>>Subflow: IMS Detail Item Table Creator (Not Called for this flow)
+Subflow: IMS Transaction Detail Locator by Barcode
+>>Subflow: IMS Transaction Detail Returner
+
+
+
+
+
+Open one IMS Transaction Record (Note this is a transaction record not a transaction detail record)
+Select the Transaction Details tab
+Click on the View All link
+Open one of the Transaction Detail Records in a new tab
+Hover over the Issued To employee name and note the employee number
+Go back to the tab with list of IMS Transaction Details and use as a reference to return the items
+
+
+
+
+Goto Flows
+
+Launch Flow IMS Transaction Landing Page
+1) Select Return
+2) Enter the employee number
+3) Copy the SIS Barcode from the Transaction Details list and paste in the Item SKU text box (remove all blank spaces)
+4) Repeat for all the items
+5) After the last item, leave the Item SKU text box blank and click the [Next] button.
+
+Refresh the Transaction Details list 
+
+All items should be returned.
+

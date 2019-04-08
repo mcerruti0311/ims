@@ -1,0 +1,64 @@
+Sandbox: ims2
+Use Utilities Lightning App
+
+Flow: IMS Transaction Landing Page
+subflow: IMS Detail Item Lookup
+ >IMS Detail Item Table Creator
+
+subflow: IMS Uniform Transaction Creator
+>Subflow: Location Data Master Lookup by ID
+>Subflow: User Master Lookup
+>Subflow: RecordType Lookup
+>Subflow: IMS Transaction Detail Record Creator
+>>Subflow RecordType Lookup By Name Master
+
+
+
+
+Enter Employee: Any Employee 00001 to 00010
+Enter SKU: 
+
+6-34-3G4007
+6-34-3G2916
+6-34-3G2916
+6-34-3G2916
+6-33-3G21LB
+
+
+Issue Items
+
+Create Uniform Transaction
+
+Accept Defaults
+
+
+Go to IMS Transactions
+Most recent view should have the newly created record.
+Check View: Employee Orders Today
+
+IMS Transaction Test
+Employee: Match Employee Number (Hover to Employee Number in Compact Layout)
+Transaction Type: Employee Issue
+Transaction Status: Issued
+Transaction By: Logged In User
+Stocking Facilty: Should match Employee Master Job Code for Time Keeping
+Order Date: Today
+
+IMS Transaction Details
+One record created for each item scanned.
+
+Transaction Type: Issue
+Item Detail should match itme scanned. (Hover over Item to see barcode).
+Transaction By should equal logged in user
+Issued To should equal Employee Contact
+Record Type should equal Employee Orders
+Type should equal Employee Issue
+Qty Issue Should = 1
+Issued Date = Today
+Transaction Status = Issued
+Inventory Status = Issued
+Billing Status If Transaction is Billable the Detail Billing Status = 'Not Ready for Billing' else 'Not Billable'
+
+
+
+

@@ -1,0 +1,10 @@
+SELECT Id, Name, Item_Description__c, Description__c, Manufacturer_Stock_Number_Picklist__c, Manufacturer_Stock_Number_xxx__c, Size__c, Waist__c, Length__c, Uniform_Type__c, Uniform_Currently_Issued__c, Retired_Item__c
+FROM Uniform_Stock_Database__c
+WHERE IMS_Detail__c = ''
+AND Retired_Item__c = false
+AND Waist__c != ''
+AND Length__c != ''
+AND Uniform_Type__c = 'Pants'
+AND Manufacturer_Stock_Number_Picklist__c = 'TR506'
+AND Description__c LIKE '%khaki%'
+ORDER BY Waist__c, Length__c

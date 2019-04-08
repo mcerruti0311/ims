@@ -1,0 +1,9 @@
+<trans>
+If(root$transaction.response$body$queryResponse$result$records.Contact$Master_Job_Code_For_Time_Keeping__r$Division__c$ =='Retail','Retail', 
+If(root$transaction.response$body$queryResponse$result$records.Contact$Master_Job_Code_For_Time_Keeping__r$Division__c$ == 'Special Operations','Special Operations', 
+If(root$transaction.response$body$queryResponse$result$records.Contact$Master_Job_Code_For_Time_Keeping__r$Division__c$ == 'Operations', 'Campus', 
+If(root$transaction.response$body$queryResponse$result$records.Contact$Master_Job_Code_For_Time_Keeping__r$Job_From_Name__c$ =='SIS Corp GSOC','Corp GSOC', 
+'No Group' 
+))) 
+)
+</trans>

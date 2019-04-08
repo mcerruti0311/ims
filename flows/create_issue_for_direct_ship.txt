@@ -1,0 +1,44 @@
+Create Issued Transaction From Success File If
+O = Shipped
+P = Employee Order
+Q = Employee
+V = Item Created
+
+
+Transaction Type = "Employee Issue"
+Transaction Status = 'Issued'
+Record Type = 'Employee Orders'
+Order Transaction = 
+
+Include Vendor Order No to match.
+
+Create Issued Transaction From Success File If
+S = Shipped
+T = Employee Order
+U = Employee
+Y = Item Created
+
+E = Vendor Detail Id
+W = Vendor Order Id
+X = Vendor Order Number
+
+Create Details
+Transaction Type = 'Issue'
+Record Type = 'Employee Orders'
+Type = 'Employee Issue'
+Qty Issue = Qty Ordered
+Transaction Status = 'Issued'
+Inventory Status = 'Issued'
+Issued Date = Today
+Order Detail
+
+
+
+
+
+TODO
+IMS Transaction
+Add = Issued Date Field
+Update Flows with Issued Date
+Total Qty on Order
+Add field Order Record

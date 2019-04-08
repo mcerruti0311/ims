@@ -1,0 +1,18 @@
+IMS Monthly Recap
+
+Testing / Quality Assurance / Training 
+For Order / Receipt / Issue / Return
+
+Production
+Relating Uniform Stock Database Items to IMS Detail Items
+
+Currently working on 5.11 Tactical TR506 Pants to IMS-000000111 Detail Records
+Will turn this over to Utilities 
+
+Looking at generic items such as this 5.11 Tactical Taclite Pro Pants Long TR506 Khaki that are assigned for many deployments
+and not having Unique items for each deployment but separating them into an item Group "Campus"
+
+
+Greco Productions
+Fred Approved the file I sent to him for users.
+I worked out a way to dynamically add the group to the user for use on items such as the 5.11 Tactical Taclite Pro Pants Long TR506 Khaki
