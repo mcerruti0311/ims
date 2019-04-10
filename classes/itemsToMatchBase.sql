@@ -19,5 +19,5 @@ WHERE Retired_Item__c = false
     AND Length__c != ''
     AND IMS_Detail__c = ''
     AND Manufacturer_Stock_Number_Picklist__c = ''
-    AND (Description__c LIKE '%tac lite pro khaki%' or Description__c LIKE '%Khaki pants%' or Description__c LIKE '%Taclite Pro Pant Khaki%')
+    AND (Description__c LIKE '%')
 ORDER BY Waist__c, Length__c
