@@ -1,12 +1,12 @@
 boolean goForUpdate = true;
 Integer runSize = 250;
-String manufacturerStockNumber = 'TU176';
+String manufacturerStockNumber = 'TT286';
 String color = 'Heather Grey';
 String imsDetail = '';
 String size = '';
-String waist = '29';
+String waist = '24';
 String imsSize = waist;
-String length = '38';
+String length = '29';
 String uniformType = 'Pants';
 String manufacturer = 'LawPro';
 String imsDetailId = '';
@@ -16,10 +16,10 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 
 
 List <String> usdbDescriptions = new List<String>();
-usdbDescriptions.add('Grey Trouser AMPAS');
-usdbDescriptions.add('Grey Trousers');  
-usdbDescriptions.add('AMPAS Pants');  
-usdbDescriptions.add('LawPro Pants');  
+usdbDescriptions.add('%Law Pro Womens Twill Grey%');
+usdbDescriptions.add('Unassigned Barcode');  
+usdbDescriptions.add('Grey Trouser% AMPAS');  
+usdbDescriptions.add('ampas dress pants');
    
 System.debug(usdbDescriptions.size());
 System.debug(usdbDescriptions.get(0));
@@ -75,10 +75,10 @@ WHERE Retired_Item__c = false
     AND Waist__c = :waist
     AND Length__c = :length
     AND (
-         Description__c = :usdbDescriptions.get(0) or 
-         Description__c = :usdbDescriptions.get(1) or 
-         Description__c = :usdbDescriptions.get(2) or 
-         Description__c = :usdbDescriptions.get(3) 
+         Description__c LIKE :usdbDescriptions.get(0) or 
+         Description__c LIKE :usdbDescriptions.get(1) or 
+         Description__c LIKE :usdbDescriptions.get(2) or 
+         Description__c LIKE :usdbDescriptions.get(3) 
     )
     
 ORDER BY Waist__c, Length__c
