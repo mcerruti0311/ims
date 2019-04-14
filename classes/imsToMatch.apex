@@ -1,14 +1,14 @@
 boolean goForUpdate = true;
 Integer runSize = 250;
-String manufacturerStockNumber = 'TT286';
-String color = 'Heather Grey';
+String manufacturerStockNumber = '74273';
+String color = 'Khaki';
 String imsDetail = '';
 String size = '';
-String waist = '24';
+String waist = '';
+String length = 'Regular';
 String imsSize = waist;
-String length = '29';
 String uniformType = 'Pants';
-String manufacturer = 'LawPro';
+String manufacturer = 'Truspec';
 String imsDetailId = '';
 String usdbDescription = '';
 
@@ -16,25 +16,25 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 
 
 List <String> usdbDescriptions = new List<String>();
-usdbDescriptions.add('%Law Pro Womens Twill Grey%');
+usdbDescriptions.add('True Spec 24-7 Series Teflon Coated Black Pants');
 usdbDescriptions.add('Unassigned Barcode');  
 usdbDescriptions.add('Grey Trouser% AMPAS');  
 usdbDescriptions.add('ampas dress pants');
-   
+
 System.debug(usdbDescriptions.size());
 System.debug(usdbDescriptions.get(0));
 
-/*
+
 for (Integer i = 0; i < usdbDescriptions.size() ; i++) {
     if (i == 0) {
      usdbDescription += usdbDescriptions.get(i); 
     }    
     if (i > 0) {
-        usdbDescription += ' or Description__c = ' + '\'' + usdbDescriptions.get(i) +'\'';   
+        usdbDescription += ', ' + usdbDescriptions.get(i);   
     }
 
 }    
-*/
+
 System.debug(usdbDescription);
 
 List<IMS_Detail__c> imsDetails = [
@@ -80,7 +80,7 @@ WHERE Retired_Item__c = false
          Description__c LIKE :usdbDescriptions.get(2) or 
          Description__c LIKE :usdbDescriptions.get(3) 
     )
-    
+ 
 ORDER BY Waist__c, Length__c
 LIMIT :runSize    
 ];

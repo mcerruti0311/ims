@@ -13,7 +13,6 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-    AND Uniform_Currently_Issued__c = false
     AND Uniform_Type__c = 'Pants'
     AND Manufacturer_Picklist__c = 'LawPro'
     AND Manufacturer_Stock_Number_Picklist__c = 'TU176'
