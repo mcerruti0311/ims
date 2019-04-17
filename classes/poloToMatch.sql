@@ -7,7 +7,7 @@ SELECT Id,
   Manufacturer_Stock_Number_Picklist__c,
   IMS_Detail__c,
   IMS_Detail__r.Item_Description__c,
-  Size__c,
+  Size__c
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
