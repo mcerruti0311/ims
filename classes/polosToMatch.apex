@@ -1,19 +1,21 @@
 boolean goForUpdate = true;
-Integer runSize = 2500;
-String manufacturerStockNumber = '4357';
-String color = 'White';
+Integer runSize = 250;
+String manufacturerStockNumber = 'K540LS';
+String color = 'Navy Blue';
+String imsDetail = '';
+// String size = '5XL';
 String uniformType = 'Shirt';
 String feature = 'Long Sleeve';
 String style = 'Polo';
-String manufacturer = 'TRU-SPEC';
+String manufacturer = 'Port Authority';
 String imsDetailId = '';
-String imsMasterName = 'IMS-000000191';
+String imsMasterName = 'IMS-000000194';
 
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 
-// {'XS','S','M','L','XL','2XL','3XL','4XL','5XL'}
+// {'XS','S','M','L','XL','2XL','3XL','4XL'}
 
-List<String> sizes = new List<String>{'XS','S','M','L','XL','2XL','3XL','4XL','5XL'};
+List<String> sizes = new List<String>{'S','XL'};
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -33,7 +35,7 @@ List<IMS_Detail__c> imsDetails = [
 	];
 
 system.debug('Size: ' + imsDetails.size());
-System.assert(imsDetails.size() == 1, 'IMS Detail Records Returned Not Equal to 1: ' + imsDetails.size() + ' for ' + sizes.get(s));
+System.assert(imsDetails.size() == 1, 'IMS Detail Records Returned Not Equal to 1: ' + imsDetails.size());
 
 imsDetailId = imsDetails[0].Id;
 
@@ -53,13 +55,9 @@ System.debug('IMS Detail Id: ' + imsDetailId);
     WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
         AND Uniform_Type__c = 'Polo'
-    AND Manufacturer_Picklist__c = 'Truspec'
-    AND Manufacturer_Stock_Number_Picklist__c = ''
-    AND (
-          
-          Description__c LIKE '%white%apple%long sleeve%'  
-         
-    )
+        AND Manufacturer_Picklist__c = 'Port Authority'
+        AND Manufacturer_Stock_Number_Picklist__c = ''
+        AND Description__c LIKE '%apple%navy blue ls%'
         AND Size__c = :sizes.get(s)
 
     ORDER BY Size__c
@@ -78,12 +76,7 @@ System.debug('IMS Detail Id: ' + imsDetailId);
             itemsToUpdate[r].Manufacturer_Stock_Number_Picklist__c = manufacturerStockNumber;
             itemsToUpdate[r].IMS_Detail__c = imsDetailId;            
         }
-        try {
+
         update itemsToUpdate;
-
-        } catch (DmlException e) {
-            System.debug('DML Exception: ' + e);
-        }
-
-    }
-}    
+}
+}
