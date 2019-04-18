@@ -7,7 +7,8 @@ SELECT Id,
   Manufacturer_Stock_Number_Picklist__c,
   IMS_Detail__c,
   IMS_Detail__r.Item_Description__c,
-  Size__c
+  Size__c,
+  Location_Data__r.Name
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c
@@ -15,11 +16,14 @@ WHERE Retired_Item__c
 AND IMS_Detail__c = ''
     AND Uniform_Type__c = 'Polo'
     AND Size__c != '' 
-    AND Manufacturer_Picklist__c LIKE 'Port Authority'
-    AND
-(Manufacturer_Stock_Number_Picklist__c = '')
-    AND Description__c LIKE '%black%long%beats%'
+    AND Manufacturer_Picklist__c = 'Truspec'
+    AND Manufacturer_Stock_Number_Picklist__c = ''
+    AND (
+          
+          Description__c LIKE '%apple%SS%Black%' or Description__c LIKE '%apple%Black%SS%%' 
+         
+    )
 
-ORDER BY Size__c
-
+   AND (NOT Description__c LIKE '%Gr%y%')
+   
 ORDER BY Size__c
