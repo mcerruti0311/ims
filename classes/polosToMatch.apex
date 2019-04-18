@@ -3,7 +3,7 @@ Integer runSize = 2500;
 String manufacturerStockNumber = '4357';
 String color = 'White';
 String uniformType = 'Shirt';
-String feature = 'Long Sleeve';
+String feature = 'Short Sleeve';
 String style = 'Polo';
 String manufacturer = 'TRU-SPEC';
 String imsDetailId = '';
@@ -56,14 +56,14 @@ System.debug('IMS Detail Id: ' + imsDetailId);
     AND Manufacturer_Picklist__c = 'Truspec'
     AND Manufacturer_Stock_Number_Picklist__c = ''
     AND (
-          
-          Description__c LIKE '%white%apple%long sleeve%'  
-         
+
+          Description__c LIKE '%white%apple%long sleeve%'
+
     )
         AND Size__c = :sizes.get(s)
 
     ORDER BY Size__c
-    LIMIT :runSize    
+    LIMIT :runSize
     ];
 
 
@@ -76,7 +76,7 @@ System.debug('IMS Detail Id: ' + imsDetailId);
     if (goForUpdate) {
         for (Integer r = 0; r < itemsToUpdate.size(); r++) {
             itemsToUpdate[r].Manufacturer_Stock_Number_Picklist__c = manufacturerStockNumber;
-            itemsToUpdate[r].IMS_Detail__c = imsDetailId;            
+            itemsToUpdate[r].IMS_Detail__c = imsDetailId;
         }
         try {
         update itemsToUpdate;
@@ -86,4 +86,4 @@ System.debug('IMS Detail Id: ' + imsDetailId);
         }
 
     }
-}    
+}
