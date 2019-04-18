@@ -15,11 +15,8 @@ WHERE Retired_Item__c
 AND IMS_Detail__c = ''
     AND Uniform_Type__c = 'Polo'
     AND Size__c != '' 
-    AND Manufacturer_Picklist__c LIKE 'Port Authority'
-    AND
-(Manufacturer_Stock_Number_Picklist__c = '')
-    AND Description__c LIKE '%black%long%beats%'
-
-ORDER BY Size__c
+    AND Manufacturer_Picklist__c != ''
+    AND Manufacturer_Stock_Number_Picklist__c != ''
+    AND Description__c LIKE '%'
 
 ORDER BY Size__c
