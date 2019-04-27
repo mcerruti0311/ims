@@ -1,47 +1,46 @@
-// polosToMatch
+// shirtsToMatch
 
 // Operation Variables
 boolean goForUpdate = true;
 Integer runSize = 2500;
 String imsDetailId = '';
 
-// Uniform Details
+// Uniform Type
 String uniformType = 'Shirt';
-String style = 'Polo';
+
+// Uniform Style
+// String style = 'N/A';
+String style = 'Button Down';
+
 
 // Manufacturer Information
-String manufacturer = 'TRU-SPEC';
+String manufacturer = 'LawPro Uni';
+// String manufacturer = 'Port Authority';
+
 
 // Colors
-// String color = 'Black';
-// String color = 'Grey';
-// String color = 'Red';
-String color = 'White';
+// String color = 'White';
+String color = 'Black';
+// String color = 'Khaki';
 
 // Feature
 // String feature = 'Long Sleeve';
 String feature = 'Short Sleeve';
 
 // IMS Master
-// String imsMasterName = 'IMS-000000127';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000128';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000129';  // Short Sleeve 4328 Black 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000130';  // Long Sleeve 4357 Black 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000191';  // Long Sleeve 4357 White 20000 - Apple Cupertino
-String imsMasterName = 'IMS-000000192';  // Short Sleeve 4357 White 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000193';  // Short Sleeve 4328 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000198';  // Long Sleeve 4357 Grey 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000199';  // Short Sleeve 4357 Grey 20000 - Apple Cupertino
+
+// String imsMasterName = 'IMS-000000148';  //  LawPro Uni 100% Polyester Button Down Shirt Long Sleeve SG108 White 59800 - AMPAS Master Specialist
+String imsMasterName = 'IMS-000000143';  //  LawPro Uni 100% Polyester Button Down Shirt Long Sleeve SG108 White 59800 - AMPAS Master Specialist
 
 // Manufacturer Item Number
-// String manufacturerStockNumber = '4326';
-// String manufacturerStockNumber = '4328';
-String manufacturerStockNumber = '4357';
-// String manufacturerStockNumber = '4359';
+// String manufacturerStockNumber = 'SG108';
+String manufacturerStockNumber = 'S535';
+
 
 // Sub Group
-String subGroup = '';
+// String subGroup = '';
 // String subGroup = 'Specialist';
+String subGroup = 'ODO';
 // String subGroup = 'Supervisor';
 // String subGroup = 'General';
 
@@ -51,13 +50,18 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // Create Size Array
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 
-List<String> sizes = new List<String>{'XS','S','M','L','XL','2XL'};
-
+List<String> sizes = new List<String>{'XS','S','M','L','XL','2XL','3XL','4XL'};
+    
+// Length 
+String length = '';
+// String length = 'N/A';
+        
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
     SELECT Id
     FROM IMS_Detail__c
     WHERE Size__c = :sizes.get(s)
+        AND Length__c = :length
         AND Item_Description__c LIKE :imsDescription
         AND IMS_Master__r.Name = :imsMasterName
         AND IMS_Master__r.Sub_Group__c = :subGroup
@@ -78,29 +82,27 @@ imsDetailId = imsDetails[0].Id;
 
 System.debug('IMS Detail Id: ' + imsDetailId);
 
-
     List<Uniform_Stock_Database__c> itemsToUpdate = [
 SELECT Id,
-  Name,
-  Uniform_Type__c,
-  Manufacturer_Picklist__c,
-  Manufacturer_xxx__c,
-  Description__c,
-  Manufacturer_Stock_Number_Picklist__c,
-  IMS_Detail__c,
-  IMS_Detail__r.Item_Description__c,
-  Size__c,
-  Location_Data__r.Name
+    Name,
+    Uniform_Type__c,
+    Manufacturer_Picklist__c,
+    Manufacturer_xxx__c,
+    Description__c,
+    Manufacturer_Stock_Number_Picklist__c,
+    IMS_Detail__c,
+    IMS_Detail__r.Item_Description__c,
+    Size__c,
+    Length__c,
+    Location_Data__r.Name
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c = 'Shirt'
-    AND Manufacturer_Picklist__c = 'Truspec'
-    AND Description__c LIKE '%Polo%white%'
-
-        AND Size__c = :sizes.get(s)
-
+    AND Manufacturer_Picklist__c = 'Port Authority'
+    AND Size__c = :sizes.get(s)
+	ORDER BY Size__c
     LIMIT :runSize
     ];
 

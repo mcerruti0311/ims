@@ -1,13 +1,13 @@
 // Variables
 boolean goForInsert = true;
-String imsName = 'IMS-000000150';
+String imsName = 'IMS-000000200';
 String size = '??';
 
 /* Sizes
 {'Short','Regular','Long','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40'}
 */
 
-List<String> lengths = new List<String>{'25','26','28','29','30','32','33','34'};
+List<String> lengths = new List<String>{'Short','Regular','Long','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40'};
 
 List<IMS__c> imsMaster = [
   SELECT Id

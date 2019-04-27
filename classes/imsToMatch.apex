@@ -1,16 +1,30 @@
+// Magic Variables
 boolean goForUpdate = true;
 Integer runSize = 250;
-String manufacturerStockNumber = '74273';
-String color = 'Khaki';
 String imsDetail = '';
-String size = '';
-String waist = '';
-String length = 'Regular';
-String imsSize = waist;
 String uniformType = 'Pants';
-String manufacturer = 'Truspec';
 String imsDetailId = '';
 String usdbDescription = '';
+
+// Manufacturer Stock Number
+String manufacturerStockNumber = '74273';
+
+// color
+String color = 'Khaki';
+
+// Size
+String size = '';
+
+// Waist
+String waist = '';
+// Length
+String length = 'Regular';
+
+// Size setting
+String imsSize = waist;
+
+// Manufacturer
+String manufacturer = 'Truspec';
 
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 
@@ -87,13 +101,7 @@ LIMIT :runSize
 
 
 System.assert(itemsToUpdate.size() > 0, 'No Records to Update');
-/*
-System.assert(itemsToUpdate[0].Description__c.toLowerCase().indexOf(color.toLowerCase()) != -1, 'Color Mismatch: ' 
-              + itemsToUpdate[0].Description__c.toLowerCase().indexOf(color.toLowerCase()) 
-              + ' ' + color.toLowerCase() 
-              + ' ' + itemsToUpdate[0].Description__c.toLowerCase()
-             );
-*/
+
 for (Integer i = 0; i < itemsToUpdate.size(); i++) {
     System.debug(i + ': Item ' + itemsToUpdate[i].Name);
 }

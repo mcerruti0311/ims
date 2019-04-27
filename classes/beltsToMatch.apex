@@ -1,4 +1,4 @@
-// polosToMatch
+// beltsToMatch
 
 // Operation Variables
 boolean goForUpdate = true;
@@ -6,44 +6,29 @@ Integer runSize = 2500;
 String imsDetailId = '';
 
 // Uniform Details
-String uniformType = 'Shirt';
-String style = 'Polo';
+String uniformType = 'Belt';
+String style = 'N/A';
 
 // Manufacturer Information
 String manufacturer = 'TRU-SPEC';
 
 // Colors
-// String color = 'Black';
-// String color = 'Grey';
-// String color = 'Red';
-String color = 'White';
+ String color = 'Black';
 
 // Feature
-// String feature = 'Long Sleeve';
-String feature = 'Short Sleeve';
+String feature = 'N/A';
 
 // IMS Master
-// String imsMasterName = 'IMS-000000127';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000128';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000129';  // Short Sleeve 4328 Black 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000130';  // Long Sleeve 4357 Black 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000191';  // Long Sleeve 4357 White 20000 - Apple Cupertino
-String imsMasterName = 'IMS-000000192';  // Short Sleeve 4357 White 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000193';  // Short Sleeve 4328 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000198';  // Long Sleeve 4357 Grey 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000199';  // Short Sleeve 4357 Grey 20000 - Apple Cupertino
+ String imsMasterName = 'IMS-000000065';  // NP989 Black General
 
 // Manufacturer Item Number
-// String manufacturerStockNumber = '4326';
-// String manufacturerStockNumber = '4328';
-String manufacturerStockNumber = '4357';
-// String manufacturerStockNumber = '4359';
+ String manufacturerStockNumber = 'NP989';
 
 // Sub Group
-String subGroup = '';
+// String subGroup = '';
 // String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
-// String subGroup = 'General';
+ String subGroup = 'General';
 
 // Description string in WHERE Clasue for imsDetails
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
@@ -51,7 +36,7 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // Create Size Array
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 
-List<String> sizes = new List<String>{'XS','S','M','L','XL','2XL'};
+List<String> sizes = new List<String>{'S','M','L','XL','2XL','3XL','4XL'};
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -94,10 +79,10 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-    AND IMS_Detail__c = ''
-    AND Uniform_Type__c = 'Shirt'
-    AND Manufacturer_Picklist__c = 'Truspec'
-    AND Description__c LIKE '%Polo%white%'
+AND IMS_Detail__c = ''
+AND Uniform_Type__c= 'Belt'
+AND Manufacturer_Picklist__c = ''
+AND Size__c != ''
 
         AND Size__c = :sizes.get(s)
 

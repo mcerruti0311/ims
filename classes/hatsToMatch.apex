@@ -1,63 +1,70 @@
-// polosToMatch
+// hatsToMatch
 
 // Operation Variables
 boolean goForUpdate = true;
 Integer runSize = 2500;
 String imsDetailId = '';
 
-// Uniform Details
-String uniformType = 'Shirt';
-String style = 'Polo';
+// Uniform Type
+String uniformType = 'Hat';
+
+// Uniform Style
+// String style = 'Watch Cap';
+ String style = 'Baseball Cap';
 
 // Manufacturer Information
-String manufacturer = 'TRU-SPEC';
+String manufacturer = 'LawPro Uni';
+// String manufacturer = 'Port Authority';
+// String manufacturer = 'OTTO International, Inc.';
+// String manufacturer = 'Sport-Tek';
 
 // Colors
-// String color = 'Black';
-// String color = 'Grey';
-// String color = 'Red';
-String color = 'White';
+ String color = 'Black';
 
 // Feature
-// String feature = 'Long Sleeve';
-String feature = 'Short Sleeve';
+String feature = 'N/A';
 
 // IMS Master
-// String imsMasterName = 'IMS-000000127';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000128';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000129';  // Short Sleeve 4328 Black 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000130';  // Long Sleeve 4357 Black 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000191';  // Long Sleeve 4357 White 20000 - Apple Cupertino
-String imsMasterName = 'IMS-000000192';  // Short Sleeve 4357 White 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000193';  // Short Sleeve 4328 White 20000 - Apple Cupertino Specialist
-// String imsMasterName = 'IMS-000000198';  // Long Sleeve 4357 Grey 20000 - Apple Cupertino
-// String imsMasterName = 'IMS-000000199';  // Short Sleeve 4357 Grey 20000 - Apple Cupertino
+// String imsMasterName = 'IMS-000000073';  // Embroidered Security Watch Cap Hat HW786 Black General
+// String imsMasterName = 'IMS-000000050';  // Fleece Beanie Watch Cap Hat C918 Black General
+String imsMasterName = 'IMS-000000156';  // Twill Cap with Embroidered Security Baseball Cap Hat 7403 Black General
+// String imsMasterName = 'IMS-000000102';  // Brushed Cotton Twill Six Panel Low Profile Baseball Cap Hat HW575 Black 
+// String imsMasterName = 'IMS-000000103';  // Brushed Cotton Twill Six Panel Low Profile Baseball Cap Hat HW575 Black 
 
 // Manufacturer Item Number
-// String manufacturerStockNumber = '4326';
-// String manufacturerStockNumber = '4328';
-String manufacturerStockNumber = '4357';
-// String manufacturerStockNumber = '4359';
+// String manufacturerStockNumber = 'HW786';
+// String manufacturerStockNumber = 'C918';
+String manufacturerStockNumber = '7403';
+// String manufacturerStockNumber = 'HW575';
+// String manufacturerStockNumber = 'STC22';
 
 // Sub Group
-String subGroup = '';
+// String subGroup = '';
 // String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
-// String subGroup = 'General';
+String subGroup = 'General';
 
 // Description string in WHERE Clasue for imsDetails
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 
 // Create Size Array
-// {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
+// {'S','M','L','XL','2XL','3XL','4XL','5XL','6XL','One Size Fits Most'}
 
-List<String> sizes = new List<String>{'XS','S','M','L','XL','2XL'};
+List<String> sizes = new List<String>{'One Size Fits Most'};
+    
+// Length 
+// String length = '';
+ String length = 'N/A';
+
+
+        
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
     SELECT Id
     FROM IMS_Detail__c
     WHERE Size__c = :sizes.get(s)
+        AND Length__c = :length
         AND Item_Description__c LIKE :imsDescription
         AND IMS_Master__r.Name = :imsMasterName
         AND IMS_Master__r.Sub_Group__c = :subGroup
@@ -81,26 +88,25 @@ System.debug('IMS Detail Id: ' + imsDetailId);
 
     List<Uniform_Stock_Database__c> itemsToUpdate = [
 SELECT Id,
-  Name,
-  Uniform_Type__c,
-  Manufacturer_Picklist__c,
-  Manufacturer_xxx__c,
-  Description__c,
-  Manufacturer_Stock_Number_Picklist__c,
-  IMS_Detail__c,
-  IMS_Detail__r.Item_Description__c,
-  Size__c,
-  Location_Data__r.Name
+    Name,
+    Uniform_Type__c,
+    Manufacturer_Picklist__c,
+    Manufacturer_xxx__c,
+    Description__c,
+    Manufacturer_Stock_Number_Picklist__c,
+    IMS_Detail__c,
+    IMS_Detail__r.Item_Description__c,
+    Size__c,
+    Length__c,
+    Location_Data__r.Name
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
-    AND Uniform_Type__c = 'Shirt'
-    AND Manufacturer_Picklist__c = 'Truspec'
-    AND Description__c LIKE '%Polo%white%'
+    AND Uniform_Type__c = 'Hat'
+ 
 
-        AND Size__c = :sizes.get(s)
-
+	ORDER BY Size__c
     LIMIT :runSize
     ];
 

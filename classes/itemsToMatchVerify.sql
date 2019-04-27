@@ -8,4 +8,5 @@ SELECT Id,
     Format(LastModifiedDate)
 FROM Uniform_Stock_Database__c
 WHERE LastModifiedDate = Today
-    AND LastModifiedBy.Name = 'Mike Cerruti'
+  AND LastModifiedBy.Name = 'Mike Cerruti'
+  AND Uniform_Type__c LIKE 'Hat'

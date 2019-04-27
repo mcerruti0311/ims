@@ -1,3 +1,5 @@
+// Type Updater
+
 boolean goForUpdate = true;
 Integer runSize = 250;
 
@@ -19,7 +21,6 @@ AND IMS_Detail__c = ''
     AND (Manufacturer_Stock_Number_Picklist__c LIKE '4357')
     AND (Description__c LIKE '%%')
 
-ORDER BY Size__c
 LIMIT :runSize    
 ];
 

@@ -1,4 +1,4 @@
-// Retire Items
+// Update Waist to Size
 boolean goForUpdate = true;
 Integer runSize = 2500;
 
@@ -13,10 +13,12 @@ SELECT Name,
     Length__c
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-    AND IMS_Detail__c = ''
-    AND Uniform_Type__c = 'Jacket'
-    AND Manufacturer_Picklist__c LIKE '%Port Authority%'
-    AND Location_Data__r.Name LIKE '%Facebook%'
+AND IMS_Detail__c = ''
+AND Uniform_Type__c= 'Belt'
+AND Manufacturer_Picklist__c = ''
+AND Size__c < '70'
+ORDER BY Size__c
+
 
 LIMIT :runSize    
 ];
@@ -30,8 +32,8 @@ for (Integer i = 0; i < itemsToUpdate.size(); i++) {
 
 if (goForUpdate) {
     for (Integer r = 0; r < itemsToUpdate.size(); r++) {
-        itemsToUpdate[r].Retired_Item__c = true;
-        itemsToUpdate[r].Retired_Reason__c = 'Active - Not Retired';
+        itemsToUpdate[r].Size__c = '4XL';
+        itemsToUpdate[r].Waist__c = '';
     }
 
     update itemsToUpdate;
