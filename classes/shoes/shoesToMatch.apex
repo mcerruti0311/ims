@@ -77,7 +77,7 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // Create Size Array
 // {'4','4.5', '5','5.5','6','6.5','7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','13','14','15','16'}
 
-List<String> sizes = new List<String>{'7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','13','14'};
+List<String> sizes = new List<String>{'5','5.5','6','7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','13','14','15','16'};
     
 // Length 
 String length = '';
@@ -125,10 +125,10 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-    AND IMS_Detail__c = ''
-    AND Uniform_Type__c = 'Shoes'
-    AND Manufacturer_Picklist__c = ''
-    AND Description__c LIKE '%bate%'
+AND IMS_Detail__c != ''
+AND Uniform_Type__c= 'Shoes'
+AND Manufacturer_Picklist__c = 'Bates'
+AND Manufacturer_Stock_Number_Picklist__c != ''
     AND Size__c = :sizes.get(s)
 	ORDER BY Size__c
     LIMIT :runSize

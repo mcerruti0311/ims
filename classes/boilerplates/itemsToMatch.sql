@@ -11,7 +11,7 @@ Waist__c,
 Length__c
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-AND Uniform_Type__c= 'Belt'
+AND Uniform_Type__c= 'Gloves'
 AND Manufacturer_Picklist__c != ''
 AND Size__c = ''
 AND Waist__c != ''
