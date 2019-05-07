@@ -22,15 +22,13 @@ detailRecordsToUpdate = [
 System.assert(!detailRecordsToUpdate.isEmpty(), 'No Records To Update');
 System.debug('IMS Details: ' + detailRecordsToUpdate.size());
 
-// Update records
-
 if(goForUpdate) {
     for (Integer i = 0; i < detailRecordsToUpdate.size(); i++) {
 		   detailRecordsToUpdate[i].Vendor_Item_Number__c = '';       
     }
     
     try {
-        update detailRecordsToUpdate;    
+      update detailRecordsToUpdate;    
     } catch (DMLException e) {
         system.debug('DML Exception: ' + e);
     }
