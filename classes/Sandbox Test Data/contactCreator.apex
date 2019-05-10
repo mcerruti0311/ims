@@ -2,6 +2,14 @@ public class contactCreator {
   public static void createContacts() {
 
     Integer contactsToCreate = 10;  // Max 10
+    Integer x = 0; // List index for Location Data Name  
+
+    List<String> locationDatas = new List<String>{
+        '71400 - SIS Corp Administration',
+        '26000 - Amazon SLU',
+        '20000 - Apple Cupertino',
+        '71800 - SIS Corp Software Solutions'
+    };
 
 // Get record Id for SIS Corporate
     List<Account> sisAccount = new List<Account> (
@@ -20,7 +28,7 @@ public class contactCreator {
         [
             SELECT Id
             FROM Location_Data__c
-            WHERE Name = '71400 - SIS Corp Administration'
+            WHERE Name = :locationDatas[x] 
             LIMIT 1
         ]
     );

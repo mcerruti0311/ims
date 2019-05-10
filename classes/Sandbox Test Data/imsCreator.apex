@@ -3,8 +3,12 @@ public class imsCreator {
 
     String category = 'Clothing';
     String imsClass = 'Uniform';
-    String imsGroup = 'Administration';
-    String subgroup = 'Receptionist';
+    // String imsGroup = 'Administration';
+    String imsGroup = 'Campus';
+    
+
+    // String subgroup = 'Receptionist';
+    String subgroup = 'Specialist';
     String imsType = 'Shirt';
     String style = 'Polo';
     // String style = 'Button Down';
@@ -22,9 +26,16 @@ public class imsCreator {
 
     // Item variables
     String manufacturerName = 'Port Authority';
-    String color = 'Black';
-    String vendorName = 'Advanced Online';
-    String mfgNumber = 'K497';
+    // String color = 'Black';
+    // String color = 'Red';
+    // String color = 'White';
+    String color = 'Blue';
+    
+
+    String vendorName = 'Greco Promotions';
+    String mfgNumber = 'K540';
+
+    String productName = 'Silk Touch Performance';
 
 
 
@@ -110,6 +121,8 @@ public class imsCreator {
       ims01.Manufacturer__c = imsManufacturerId;
       ims01.Vendor__c = imsVendorId;
       ims01.RecordTypeId = imsRecordTypeId;
+      ims01.Product_Name__c = productName;
+      
     Insert ims01;
 
     Id ims01Id = ims01.Id;
@@ -120,6 +133,7 @@ public class imsCreator {
         imsDetails.Size__c = clothingSizes.get(i);
         imsDetails.IMS_Detail_Status__c = 'Active';
         imsDetails.RecordTypeId = imsDetailRecordTypeId;
+        imsDetails.Length__c = 'N/A';
       insert imsDetails;
     }
   }

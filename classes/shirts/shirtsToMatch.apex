@@ -1,37 +1,126 @@
-// Remove all vendor numbers 
+// shirtsToMatch
 
-// Constants
-Boolean goForUpdate = true;
-Integer runSize = 500;
+// Operation Variables
+boolean goForUpdate = true;
+Integer runSize = 2500;
+String imsDetailId = '';
 
-// Create List of IMS Detail Records to Update
+// Uniform Details
+String uniformType = 'Shirt';
+String style = '';
 
-List<IMS_Detail__c> detailRecordsToUpdate = new List<IMS_Detail__c>();
+// Manufacturer Information
+// String manufacturer = '5.11 Tactical';
+String manufacturer = 'Cornerstone Workwear';
+// String manufacturer = 'Port Authority';
+// String manufacturer = 'Sport-Tek';
+// String manufacturer = 'Tri-Mountain Racewear';
+// String manufacturer = 'TRU-SPEC';
+// String manufacturer = 'West Coast Screen Printing';
 
-detailRecordsToUpdate = [
-    SELECT Id, 
-      IMS_Detail_Status__c,
-      Name, 
-      Vendor_Item_Number__c
+// Colors
+// String color = 'Black';
+// String color = 'Grey';
+// String color = 'Red';
+// String color = 'Royal Blue';
+String color = 'White';
+
+// Feature
+// String feature = 'Long Sleeve';
+String feature = 'Short Sleeve';
+
+// IMS Master
+// String imsMasterName = 'IMS-000000013';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Grey 26000 - Amazon SLU Specialist
+
+
+// Manufacturer Item Number
+// String manufacturerStockNumber = '4326';
+
+
+// Sub Group
+// String subGroup = '';
+// String subGroup = 'General';
+String subGroup = 'Specialist';
+// String subGroup = 'Supervisor';
+
+// Description string in WHERE Clasue for imsDetails
+String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
+
+// Create Size Array
+// {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
+
+List<String> sizes = new List<String>{'L'};
+
+for (Integer s = 0 ; s < sizes.size() ; s++) {
+List<IMS_Detail__c> imsDetails = [
+    SELECT Id
     FROM IMS_Detail__c
-    WHERE (IMS_Detail_Status__c != 'Retired' or IMS_Detail_Status__c != 'Void')
-      AND Vendor_Item_Number__c != ''
-    LIMIT :runSize  
-  ];  
+    WHERE Size__c = :sizes.get(s)
+        AND Item_Description__c LIKE :imsDescription
+        AND IMS_Master__r.Name = :imsMasterName
+        AND IMS_Master__r.Sub_Group__c = :subGroup
+        AND IMS_Master__r.Color__c = :color
+        AND IMS_Master__r.Type__c = :uniformType
+        AND IMS_Master__r.Feature__c = :feature
+        AND IMS_Master__r.Manufacturer__r.Name = :manufacturer
+        AND IMS_Master__r.Manufacturer_Number__c = :manufacturerStockNumber
+        AND IMS_Master__r.Style__c = :style
+        AND IMS_Master__r.Item_Status__c = 'Active'
+        AND IMS_Detail_Status__c != 'Void'
+	];
 
-System.assert(!detailRecordsToUpdate.isEmpty(), 'No Records To Update');
-System.debug('IMS Details: ' + detailRecordsToUpdate.size());
+system.debug('Size: ' + imsDetails.size());
+System.assert(imsDetails.size() == 1, 'IMS Detail Records Returned Not Equal to 1: ' + imsDetails.size() + ' for ' + sizes.get(s));
 
-// Update records
+imsDetailId = imsDetails[0].Id;
 
-if(goForUpdate) {
-    for (Integer i = 0; i < detailRecordsToUpdate.size(); i++) {
-		   detailRecordsToUpdate[i].Vendor_Item_Number__c = '';       
-    }
+System.debug('IMS Detail Id: ' + imsDetailId);
+
+
+    List<Uniform_Stock_Database__c> itemsToUpdate = [
+SELECT Id,
+  Name,
+  Uniform_Type__c,
+  Manufacturer_Picklist__c,
+  Manufacturer_xxx__c,
+  Description__c,
+  Manufacturer_Stock_Number_Picklist__c,
+  IMS_Detail__c,
+  IMS_Detail__r.Item_Description__c,
+  Size__c,
+  Location_Data__r.Name
+
+FROM Uniform_Stock_Database__c
+WHERE Retired_Item__c = false
+AND IMS_Detail__c = ''
+    AND Uniform_Type__c = 'Polo'
+    AND Manufacturer_Picklist__c = ''
+    AND Manufacturer_Stock_Number_Picklist__c = ''
+    AND Description__c LIKE '%Corner Stone%'
     
-    try {
-        update detailRecordsToUpdate;    
-    } catch (DMLException e) {
-        system.debug('DML Exception: ' + e);
+        AND Size__c = :sizes.get(s)
+
+    LIMIT :runSize
+    ];
+
+
+    System.assert(itemsToUpdate.size() > 0, 'No Records to Update');
+
+    for (Integer i = 0; i < itemsToUpdate.size(); i++) {
+        System.debug(i + ': Item ' + itemsToUpdate[i].Name);
+    }
+
+    if (goForUpdate) {
+        for (Integer r = 0; r < itemsToUpdate.size(); r++) {
+            itemsToUpdate[r].Manufacturer_Stock_Number_Picklist__c = manufacturerStockNumber;
+            itemsToUpdate[r].IMS_Detail__c = imsDetailId;
+        }
+        try {
+        update itemsToUpdate;
+
+        } catch (DmlException e) {
+            System.debug('DML Exception: ' + e);
+        }
+
     }
 }

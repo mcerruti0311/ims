@@ -53,6 +53,14 @@ public class vendorAccountCreator {
       acct05.RecordTypeId = subContractVendor;
       acct05.Phone = '972-471-5400';
     Insert acct05;
+    
+    Account acct06 = new Account();
+      acct06.Name = 'Greco Promotions';
+      acct06.Type = 'Vendor - Uniforms';
+      acct06.Account_Category__c = 'Uniforms - General';
+      acct06.RecordTypeId = subContractVendor;
+      acct06.Phone = '215-689-1967';
+    Insert acct06;
 
   }
 }

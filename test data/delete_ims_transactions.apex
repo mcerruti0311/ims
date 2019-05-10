@@ -1,8 +1,9 @@
 // variables to set
 // instance to delete records 
-String expectedInstance = 'cs23';
+String expectedInstance = 'na94';
 // change okToDelete to true to delete records
-boolean goForDelete = false;
+boolean goForDelete = true;
+Integer runSize = 24;
 
 // create an array of records to delete
 IMS_Transaction__c[] doomedTransactions = 
@@ -12,7 +13,7 @@ IMS_Transaction__c[] doomedTransactions =
         Name
       FROM IMS_Transaction__c 
       ORDER BY Name
-      LIMIT 10   
+      LIMIT :runSize   
     ];
 
 // variables
@@ -27,7 +28,7 @@ System.assert(doomedTransactionsSize > 0, 'No records to delete.');
 
 // Display a list of records to delete
   for (Integer i=0 ; i < doomedTransactionsSize; i++) {
-    System.debug('Doomed Details ' + doomedTransactions[i].Name);  
+    System.debug('Doomed Details ' + i + ': ' + doomedTransactions[i].Name);  
   }
  
 // Delete detail records
