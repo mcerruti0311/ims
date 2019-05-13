@@ -11,11 +11,12 @@ Waist__c,
 Length__c
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-AND Uniform_Type__c= 'Gloves'
-AND Manufacturer_Picklist__c != ''
-AND Size__c = ''
-AND Waist__c != ''
-AND Length__c != ''
-AND IMS_Detail__c = ''
-AND Manufacturer_Stock_Number_Picklist__c = ''
-AND (Description__c LIKE '%') 
+    AND IMS_Detail__c = ''
+    AND Uniform_Type__c= 'Belts'
+    AND Manufacturer_Picklist__c != ''
+    AND Manufacturer_Stock_Number_Picklist__c = ''
+    AND Size__c != ''
+    AND Waist__c != ''
+    AND Length__c != ''
+    AND
+(Description__c LIKE '%') 

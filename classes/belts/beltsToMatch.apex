@@ -10,7 +10,11 @@ String uniformType = 'Belt';
 String style = 'N/A';
 
 // Manufacturer Information
-String manufacturer = 'TRU-SPEC';
+// String manufacturer = '5.11 Tactical';
+// String manufacturer = 'Boston Leather';
+// String manufacturer = 'CTM Uniform';
+// String manufacturer = 'TRU-SPEC';
+// String manufacturer = 'Uncle Mike\'s';
 
 // Colors
  String color = 'Black';
@@ -19,16 +23,24 @@ String manufacturer = 'TRU-SPEC';
 String feature = 'N/A';
 
 // IMS Master
- String imsMasterName = 'IMS-000000065';  // NP989 Black General
+// String imsMasterName = 'IMS-000000022';  // CTM Uniform Leather 1 1/4" Basic Dress Belt Belt BT-ET701 Black Supervisor
+// String imsMasterName = 'IMS-000000039';  // 5.11 Tactical TDU 1.5" Wide Belt 59551 Black Specialist
+// String imsMasterName = 'IMS-000000053';  // Uncle Mike's Ultra Lined Inner Belt Belt H00 2923 Black Specialist
+// String imsMasterName = 'IMS-000000065';  // TRU-SPEC Security Friendly Belt NP989 Black General
+// String imsMasterName = 'IMS-000000104';  // Boston Leather 1 1/2" Leather Garrison Belt H02 2396 Black General
 
 // Manufacturer Item Number
- String manufacturerStockNumber = 'NP989';
+// String manufacturerStockNumber = '59551';
+// String manufacturerStockNumber = 'BT-ET701';
+// String manufacturerStockNumber = 'H00 2923';
+// String manufacturerStockNumber = 'H02 2396';
+// String manufacturerStockNumber = 'NP989';
 
 // Sub Group
 // String subGroup = '';
 // String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
- String subGroup = 'General';
+// String subGroup = 'General';
 
 // Description string in WHERE Clasue for imsDetails
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
@@ -79,10 +91,9 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-AND IMS_Detail__c = ''
-AND Uniform_Type__c= 'Belt'
-AND Manufacturer_Picklist__c = ''
-AND Size__c != ''
+    AND IMS_Detail__c = ''
+    AND Uniform_Type__c = 'Belt'
+AND Manufacturer_Picklist__c = 'Truspec'
 
         AND Size__c = :sizes.get(s)
 

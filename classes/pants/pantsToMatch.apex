@@ -13,13 +13,13 @@ String style = 'Long';
 // String style = 'Shorts';
 
 // Manufacturer Information
-// String manufacturer = '5.11 Tactical';
+String manufacturer = '5.11 Tactical';
 // String manufacturer = 'Galls';
-String manufacturer = 'TRU-SPEC';
+// String manufacturer = 'TRU-SPEC';
 
 // Colors
-String color = 'Black';
-// String color = 'Khaki';
+// String color = 'Black';
+String color = 'Khaki';
 // String color = 'Grey';
 // String color = 'Red';
 // String color = 'White';
@@ -30,7 +30,7 @@ String feature = 'N/A';
 
 // IMS Master
 // String imsMasterName = 'IMS-000000029';  // 5.11 Tactical Taclite Pro Long Pants 74273 Black Specialist
-// String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki Specialist
+String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki Specialist
 // String imsMasterName = 'IMS-000000061';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Khaki Specialist
 // String imsMasterName = 'IMS-000000091';  // 5.11 Tactical TacLite Pro Women's Ripstop Long Pants 64360 Black Specialist
 // String imsMasterName = 'IMS-000000111';  // 5.11 Tactical Taclite Pro Long Pants 74273 Khaki Specialist
@@ -40,15 +40,15 @@ String feature = 'N/A';
 // String imsMasterName = 'IMS-000000175';  // 5.11 Tactical Bike Patrol Long Pants TT125 Black Specialist
 // String imsMasterName = 'IMS-000000185';  // Galls Tac Force Tactical Long Pants TT784 Khaki General
 // String imsMasterName = 'IMS-000000186';  // Galls Women's Tac Force Tactical Long Pants TT846 Khaki General
-String imsMasterName = 'IMS-000000187';  // TRU-SPEC 24-7 Ripstop Long Pants TR549 Black Specialist
+// String imsMasterName = 'IMS-000000187';  // TRU-SPEC 24-7 Ripstop Long Pants TR549 Black Specialist
 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '64360';
 // String manufacturerStockNumber = '74003';
 // String manufacturerStockNumber = '74273';
-// String manufacturerStockNumber = '74434';
+String manufacturerStockNumber = '74434';
 // String manufacturerStockNumber = 'H02 9672';
-String manufacturerStockNumber = 'TR549';
+// String manufacturerStockNumber = 'TR549';
 // String manufacturerStockNumber = 'TR625';
 // String manufacturerStockNumber = 'TT125';
 // String manufacturerStockNumber = 'TT784';
@@ -67,13 +67,13 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // {'','XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 // {'28','30','32','34','36','38','42','44'}
 
-List<String> sizes = new List<String>{'38'};
+List<String> sizes = new List<String>{'28'};
 
 // Create Length Array
 // {'Long','Regular','Short','Unhemmed'}
 // {'30','32'}
 
-List<String> lengths = new List<String>{'28'};
+List<String> lengths = new List<String>{'32'};
 
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
@@ -123,7 +123,7 @@ WHERE Retired_Item__c
 = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c = 'Pants'
-    AND Manufacturer_Picklist__c = 'Truspec'
+    AND Manufacturer_Picklist__c = '5.11'
     
 
     AND Waist__c = :sizes.get(s)

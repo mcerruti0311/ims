@@ -66,9 +66,9 @@ String subGroup = 'General';
 // String subGroup = 'Supervisor';
 
 // Length 
-String length = '';
+// String length = '';
 // String length = 'Long';
-// String length = 'N/A';
+String length = 'N/A';
 // String length = 'Regular';
 // String length = 'Short';
 
@@ -79,7 +79,7 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 // {'4','6','20','36','38','40','42','50','62'}
 
-List<String> sizes = new List<String>{'S','M','L','XL','2XL','5XL'};
+List<String> sizes = new List<String>{'L','XL','2XL'};
     
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -127,9 +127,8 @@ FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c
 = false
     AND IMS_Detail__c = ''
-    AND Uniform_Type__c = 'Jacket'
-    AND Manufacturer_Picklist__c LIKE 'North%'
-    AND (Description__c LIKE '%')
+    AND Uniform_Type__c= 'Jacket'
+AND Manufacturer_Picklist__c = 'Galls'
 
     AND Size__c = :sizes.get(s)
 
