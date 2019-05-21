@@ -19,20 +19,23 @@ String manufacturer = 'Cornerstone Workwear';
 // String manufacturer = 'West Coast Screen Printing';
 
 // Colors
-// String color = 'Black';
+String color = 'Black';
 // String color = 'Grey';
 // String color = 'Red';
 // String color = 'Royal Blue';
-String color = 'White';
+// String color = 'White';
 
 // Feature
 // String feature = 'Long Sleeve';
 String feature = 'Short Sleeve';
 
 // IMS Master
+// String imsMasterName = 'IMS-000000004';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Royal Blue 26000 - Amazon SLU Specialist
+// String imsMasterName = 'IMS-000000009';  // Port Authority Silk Touch Performance Polo Shirt Long Sleeve K540LS Royal Blue 26000 - Amazon SLU Specialist
 // String imsMasterName = 'IMS-000000013';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Grey 26000 - Amazon SLU Specialist
 // String imsMasterName = 'IMS-000000084';  // Port Authority Silk Touch Polo Shirt Short Sleeve K500 Royal Blue 24900 - Pegatron Elk Grove Specialist
-String imsMasterName = 'IMS-000000117';  // Cornerstone Workwear Select Snag-Proof Tactical Polo Shirt Short Sleeve CS410 White 20300 - Apple Maiden Specialist
+// String imsMasterName = 'IMS-000000117';  // Cornerstone Workwear Select Snag-Proof Tactical Polo Shirt Short Sleeve CS410 White 20300 - Apple Maiden Specialist
+String imsMasterName = 'IMS-000000119';  // Cornerstone Workwear Select Snag-Proof Tactical Polo Shirt Short Sleeve CS410 Black 20300 - Apple Maiden Supervisor
 // String imsMasterName = 'IMS-000000123';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Black 81501 - Retail - Apple - CA - Northern General
 // String imsMasterName = 'IMS-000000127';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
 // String imsMasterName = 'IMS-000000128';  // Short Sleeve 4326 White 20000 - Apple Cupertino Specialist
@@ -59,8 +62,8 @@ String manufacturerStockNumber = 'CS410';
 // Sub Group
 // String subGroup = '';
 // String subGroup = 'General';
-String subGroup = 'Specialist';
-// String subGroup = 'Supervisor';
+// String subGroup = 'Specialist';
+String subGroup = 'Supervisor';
 
 // Description string in WHERE Clasue for imsDetails
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
@@ -68,7 +71,7 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // Create Size Array
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 
-List<String> sizes = new List<String>{'L'};
+List<String> sizes = new List<String>{'XL','3XL'};
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -111,11 +114,11 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-AND IMS_Detail__c = ''
-    AND Uniform_Type__c = 'Polo'
-    AND Manufacturer_Picklist__c = ''
+    AND IMS_Detail__c = ''
+    AND Uniform_Type__c= 'Polo'
+    AND Manufacturer_Picklist__c = 'Cornerstone'
     AND Manufacturer_Stock_Number_Picklist__c = ''
-    AND Description__c LIKE '%Corner Stone%'
+    AND Description__c LIKE '%'
     
         AND Size__c = :sizes.get(s)
 

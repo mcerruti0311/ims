@@ -13,8 +13,11 @@ String style = 'N/A';
 // String manufacturer = '5.11 Tactical';
 // String manufacturer = 'Boston Leather';
 // String manufacturer = 'CTM Uniform';
+String manufacturer = 'Galls';
+// String manufacturer = 'LawPro Uni';
 // String manufacturer = 'TRU-SPEC';
 // String manufacturer = 'Uncle Mike\'s';
+
 
 // Colors
  String color = 'Black';
@@ -28,27 +31,32 @@ String feature = 'N/A';
 // String imsMasterName = 'IMS-000000053';  // Uncle Mike's Ultra Lined Inner Belt Belt H00 2923 Black Specialist
 // String imsMasterName = 'IMS-000000065';  // TRU-SPEC Security Friendly Belt NP989 Black General
 // String imsMasterName = 'IMS-000000104';  // Boston Leather 1 1/2" Leather Garrison Belt H02 2396 Black General
+String imsMasterName = 'IMS-000000203';  // Galls Economy Leather 1 1/2" Garrison Belt LP1237 Black General
+// String imsMasterName = 'IMS-000000204';  // LawPro Uni 1 1/2" W Leather Garrison Belt 0130-30 Black General
 
 // Manufacturer Item Number
+// String manufacturerStockNumber = '0130-30';
 // String manufacturerStockNumber = '59551';
 // String manufacturerStockNumber = 'BT-ET701';
 // String manufacturerStockNumber = 'H00 2923';
 // String manufacturerStockNumber = 'H02 2396';
+String manufacturerStockNumber = 'LP1237';
 // String manufacturerStockNumber = 'NP989';
 
 // Sub Group
 // String subGroup = '';
+String subGroup = 'General';
 // String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
-// String subGroup = 'General';
 
 // Description string in WHERE Clasue for imsDetails
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 
 // Create Size Array
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
+// {'28, '32','38','40','50'}
 
-List<String> sizes = new List<String>{'S','M','L','XL','2XL','3XL','4XL'};
+List<String> sizes = new List<String>{'50'};
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -90,10 +98,11 @@ SELECT Id,
   Location_Data__r.Name
 
 FROM Uniform_Stock_Database__c
-WHERE Retired_Item__c = false
+WHERE Retired_Item__c
+= false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c = 'Belt'
-AND Manufacturer_Picklist__c = 'Truspec'
+    AND Manufacturer_Picklist__c = 'Galls'
 
         AND Size__c = :sizes.get(s)
 

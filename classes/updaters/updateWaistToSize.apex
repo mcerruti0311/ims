@@ -1,5 +1,5 @@
 // Update Waist to Size
-boolean goForUpdate = true;
+boolean goForUpdate = false;
 Integer runSize = 2500;
 
 List<Uniform_Stock_Database__c> itemsToUpdate = [
@@ -15,8 +15,8 @@ FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
 AND IMS_Detail__c = ''
 AND Uniform_Type__c= 'Belt'
-AND Manufacturer_Picklist__c = ''
-AND Size__c < '70'
+AND Waist__c != ''
+AND Size__c = ''
 ORDER BY Size__c
 
 
@@ -32,7 +32,7 @@ for (Integer i = 0; i < itemsToUpdate.size(); i++) {
 
 if (goForUpdate) {
     for (Integer r = 0; r < itemsToUpdate.size(); r++) {
-        itemsToUpdate[r].Size__c = '4XL';
+        itemsToUpdate[r].Size__c = itemsToUpdate[r].Waist__c;
         itemsToUpdate[r].Waist__c = '';
     }
 
