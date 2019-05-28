@@ -11,16 +11,16 @@ String uniformType = 'Jacket';
 // Style
 // String style = 'Blazer';
 // String style = 'Other';
-String style = 'Parka';
+// String style = 'Parka';
 // String style = 'Rain';
-// String style = 'Soft Shell';
+String style = 'Soft Shell';
 // String style = 'Windbreaker';
 
 // Manufacturer Information
 // String manufacturer = '5.11 Tactical';
-String manufacturer = 'Galls';
+// String manufacturer = 'Galls';
 // String manufacturer = 'LawPro Uni';
-// String manufacturer = 'Port Authority';
+String manufacturer = 'Port Authority';
 // String manufacturer = 'TRU-SPEC';
 
 // Colors
@@ -32,7 +32,7 @@ String color = 'Black';
 String feature = 'N/A';
 
 // IMS Master
-String imsMasterName = 'IMS-000000020';  // Galls 3 in 1 System Parka Jacket JA787 Black 26000 - Amazon SLU General
+// String imsMasterName = 'IMS-000000020';  // Galls 3 in 1 System Parka Jacket JA787 Black 26000 - Amazon SLU General
 // String imsMasterName = 'IMS-000000049';  // Port Authority Herringbone 3-in-1 Parka SIS LOGO Black/Gold Other Jacket J302 Black General
 // String imsMasterName = 'IMS-000000059';  // Port Authority Textured Soft Shell Windbreaker Jacket J705 Black 20000 - Apple Cupertino General
 // String imsMasterName = 'IMS-000000075';  // 5.11 Tactical Tactical 5 in 1 Jacket Other Jacket JA432 Black 20900 - Apple Reno General
@@ -44,7 +44,8 @@ String imsMasterName = 'IMS-000000020';  // Galls 3 in 1 System Parka Jacket JA7
 // String imsMasterName = 'IMS-000000153';  // LawPro Uni Centurion Duty Rain Jacket 10-104 Black 59800 - AMPAS Master
 // String imsMasterName = 'IMS-000000200';  // TRU-SPEC H2O Proof 3-in-1 Rain Jacket JX304 Black General
 // String imsMasterName = 'IMS-000000201';  // TRU-SPEC H2O Proof All Season Rain Jacket 2402003 Black General
-
+// String imsMasterName = 'IMS-000000206';  // Port Authority Textured Soft Shell Jacket J705 Black 20600 - Apple Elk Grove General
+String imsMasterName = 'IMS-000000207';  // Port Authority Textured Soft Shell Jacket J705 Black ODO
 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '10-104';
@@ -52,16 +53,17 @@ String imsMasterName = 'IMS-000000020';  // Galls 3 in 1 System Parka Jacket JA7
 // String manufacturerStockNumber = 'J302';
 // String manufacturerStockNumber = 'J302';
 // String manufacturerStockNumber = 'J324';
-// String manufacturerStockNumber = 'J705';
+String manufacturerStockNumber = 'J705';
 // String manufacturerStockNumber = 'JA317';
-String manufacturerStockNumber = 'JA787';
+// String manufacturerStockNumber = 'JA787';
 // String manufacturerStockNumber = 'JC644';
 // String manufacturerStockNumber = 'JX304';
 
 
 // Sub Group
 // String subGroup = '';
-String subGroup = 'General';
+// String subGroup = 'General';
+String subGroup = 'ODO';
 // String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
 
@@ -124,12 +126,12 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 
-WHERE Retired_Item__c
-= false
+WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c= 'Jacket'
-AND Manufacturer_Picklist__c = 'Galls'
-
+    AND Manufacturer_Picklist__c = 'Port Authority'
+    AND Manufacturer_Stock_Number_Picklist__c = 'J705'
+    
     AND Size__c = :sizes.get(s)
 
     LIMIT :runSize

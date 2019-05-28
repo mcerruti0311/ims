@@ -8,7 +8,10 @@ SELECT Id,
     IMS_Detail__r.Item_Description__c,
     Size__c,
     Waist__c,
-    Length__c
+    Length__c,
+    Location_Data__r.Name,
+    LastModifiedDate,
+    LastModifiedBy.Name
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
