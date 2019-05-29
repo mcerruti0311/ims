@@ -12,8 +12,8 @@ String style = 'Polo';
 // Manufacturer Information
 // String manufacturer = '5.11 Tactical';
 // String manufacturer = 'Cornerstone Workwear';
-String manufacturer = 'Port Authority';
-// String manufacturer = 'Sport-Tek';
+// String manufacturer = 'Port Authority';
+String manufacturer = 'Sport-Tek';
 // String manufacturer = 'Tri-Mountain Racewear';
 // String manufacturer = 'TRU-SPEC';
 // String manufacturer = 'West Coast Screen Printing';
@@ -21,9 +21,9 @@ String manufacturer = 'Port Authority';
 // Colors
 // String color = 'Black';
 // String color = 'Grey';
-// String color = 'Navy Blue'
+String color = 'Navy Blue';
 // String color = 'Red';
-String color = 'Royal Blue';
+// String color = 'Royal Blue';
 // String color = 'White';
 
 // Feature
@@ -35,7 +35,8 @@ String feature = 'Short Sleeve';
 // String imsMasterName = 'IMS-000000004';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Royal Blue 26000 - Amazon SLU Specialist
 // String imsMasterName = 'IMS-000000009';  // Port Authority Silk Touch Performance Polo Shirt Long Sleeve K540LS Royal Blue 26000 - Amazon SLU Specialist
 // String imsMasterName = 'IMS-000000013';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Grey 26000 - Amazon SLU Specialist
-String imsMasterName = 'IMS-000000015';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Black 26000 - Amazon SLU Specialist
+// String imsMasterName = 'IMS-000000015';  // Port Authority Silk Touch Performance Polo Shirt Short Sleeve K540 Black 26000 - Amazon SLU Specialist
+String imsMasterName = 'IMS-000000031';  // Sport-Tek Micropique Sport-Wick Piped Polo Shirt Short Sleeve ST653 Navy Blue 20000 - Apple Cupertino Supervisor
 // String imsMasterName = 'IMS-000000033';  // Sport-Tek Micropique Sport-Wick Piped Polo Shirt Long Sleeve ST657 Navy Blue 20000 - Apple Cupertino Specialist
 // String imsMasterName = 'IMS-000000058';  // Port Authority Silk Touch Performance Polo Shirt Long Sleeve K540LS White 20700 - Apple Austin Specialist
 // String imsMasterName = 'IMS-000000084';  // Port Authority Silk Touch Polo Shirt Short Sleeve K500 Royal Blue 24900 - Pegatron Elk Grove Specialist
@@ -62,15 +63,16 @@ String imsMasterName = 'IMS-000000015';  // Port Authority Silk Touch Performanc
 // String manufacturerStockNumber = '4359';
 // String manufacturerStockNumber = 'CS410';
 // String manufacturerStockNumber = 'K500';
-String manufacturerStockNumber = 'K540';
+// String manufacturerStockNumber = 'K540';
 // String manufacturerStockNumber = 'K540LS';
+String manufacturerStockNumber = 'ST653';
 // String manufacturerStockNumber = 'ST657';
 
 // Sub Group
 // String subGroup = '';
 // String subGroup = 'General';
-String subGroup = 'Specialist';
-// String subGroup = 'Supervisor';
+// String subGroup = 'Specialist';
+String subGroup = 'Supervisor';
 
 // Description string in WHERE Clasue for imsDetails
 String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
@@ -78,7 +80,7 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // Create Size Array
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 
-List<String> sizes = new List<String>{'XL','3XL'};
+List<String> sizes = new List<String>{'XS','M','2XL','5XL'};
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -121,11 +123,11 @@ SELECT Id,
 
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
-    AND IMS_Detail__c = ''
-    AND Uniform_Type__c= 'Polo'
-    AND Manufacturer_Picklist__c = 'Cornerstone'
+AND IMS_Detail__c = ''
+    AND Uniform_Type__c = 'Polo'
+    AND Manufacturer_Picklist__c = 'Sport-Tek'
     AND Manufacturer_Stock_Number_Picklist__c = ''
-    AND Description__c LIKE '%'
+    AND Description__c LIKE '%Blue%'
     
         AND Size__c = :sizes.get(s)
 
