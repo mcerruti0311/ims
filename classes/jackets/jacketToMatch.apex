@@ -45,7 +45,8 @@ String feature = 'N/A';
 // String imsMasterName = 'IMS-000000200';  // TRU-SPEC H2O Proof 3-in-1 Rain Jacket JX304 Black General
 // String imsMasterName = 'IMS-000000201';  // TRU-SPEC H2O Proof All Season Rain Jacket 2402003 Black General
 // String imsMasterName = 'IMS-000000206';  // Port Authority Textured Soft Shell Jacket J705 Black 20600 - Apple Elk Grove General
-String imsMasterName = 'IMS-000000207';  // Port Authority Textured Soft Shell Jacket J705 Black ODO
+// String imsMasterName = 'IMS-000000207';  // Port Authority Textured Soft Shell Jacket J705 Black ODO
+String imsMasterName = 'IMS-000000209';  // Port Authority Textured Soft Shell Jacket J705 Black Specialist
 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '10-104';
@@ -63,8 +64,8 @@ String manufacturerStockNumber = 'J705';
 // Sub Group
 // String subGroup = '';
 // String subGroup = 'General';
-String subGroup = 'ODO';
-// String subGroup = 'Specialist';
+// String subGroup = 'ODO';
+String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
 
 // Length 

@@ -5,7 +5,7 @@ boolean goForUpdate = true;
 Integer runSize = 2500;
 String imsDetailId = '';
 
-// Uniform Tye
+// Uniform Type
 String uniformType = 'Pants';
 
 // Style
@@ -13,8 +13,8 @@ String style = 'Long';
 // String style = 'Shorts';
 
 // Manufacturer Information
-// String manufacturer = '5.11 Tactical';
-String manufacturer = 'Galls';
+String manufacturer = '5.11 Tactical';
+// String manufacturer = 'Galls';
 // String manufacturer = 'TRU-SPEC';
 
 // Colors
@@ -30,7 +30,7 @@ String feature = 'N/A';
 
 // IMS Master
 // String imsMasterName = 'IMS-000000029';  // 5.11 Tactical Taclite Pro Long Pants 74273 Black General
-// String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki General
+String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki General
 // String imsMasterName = 'IMS-000000060';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Black General
 // String imsMasterName = 'IMS-000000061';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Khaki General
 // String imsMasterName = 'IMS-000000091';  // 5.11 Tactical TacLite Pro Women's Ripstop Long Pants 64360 Black General
@@ -40,20 +40,22 @@ String feature = 'N/A';
 // String imsMasterName = 'IMS-000000174';  // 5.11 Tactical Apex Long Pants 74434 Black Specialist
 // String imsMasterName = 'IMS-000000175';  // 5.11 Tactical Bike Patrol Long Pants TT125 Black Specialist
 // String imsMasterName = 'IMS-000000185';  // Galls Tac Force Tactical Long Pants TT784 Khaki General
-String imsMasterName = 'IMS-000000186';  // Galls Women's Tac Force Tactical Long Pants TT846 Khaki General
+// String imsMasterName = 'IMS-000000186';  // Galls Women's Tac Force Tactical Long Pants TT846 Khaki General
 // String imsMasterName = 'IMS-000000187';  // TRU-SPEC 24-7 Ripstop Long Pants TR549 Black Specialist
+// String imsMasterName = 'IMS-000000208';  // TRU-SPEC 24-7 Ripstop Long Pants TR549 Black General
 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '64360';
 // String manufacturerStockNumber = '74003';
 // String manufacturerStockNumber = '74273';
-// String manufacturerStockNumber = '74434';
+String manufacturerStockNumber = '74434';
 // String manufacturerStockNumber = 'H02 9672';
+// String manufacturerStockNumber = 'TR506';
 // String manufacturerStockNumber = 'TR549';
 // String manufacturerStockNumber = 'TR625';
 // String manufacturerStockNumber = 'TT125';
 // String manufacturerStockNumber = 'TT784';
-String manufacturerStockNumber = 'TT846';
+// String manufacturerStockNumber = 'TT846';
 
 // Sub Group
 // String subGroup = '';
