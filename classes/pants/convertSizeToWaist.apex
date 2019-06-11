@@ -18,8 +18,8 @@ FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c= 'Pants'
-    AND Size__c != ''
-    AND Waist__c = ''
+    AND Manufacturer_Picklist__c = '5.11'
+    AND Manufacturer_Stock_Number_Picklist__c = '74003'
 ORDER BY Size__c
 
 

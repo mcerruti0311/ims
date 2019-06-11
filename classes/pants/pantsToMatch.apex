@@ -18,8 +18,8 @@ String manufacturer = '5.11 Tactical';
 // String manufacturer = 'TRU-SPEC';
 
 // Colors
-// String color = 'Black';
-String color = 'Khaki';
+String color = 'Black';
+// String color = 'Khaki';
 // String color = 'Grey';
 // String color = 'Red';
 // String color = 'White';
@@ -29,8 +29,8 @@ String feature = 'N/A';
 
 
 // IMS Master
-// String imsMasterName = 'IMS-000000029';  // 5.11 Tactical Taclite Pro Long Pants 74273 Black General
-String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki General
+String imsMasterName = 'IMS-000000029';  // 5.11 Tactical Taclite Pro Long Pants 74273 Black General
+// String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki General
 // String imsMasterName = 'IMS-000000060';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Black General
 // String imsMasterName = 'IMS-000000061';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Khaki General
 // String imsMasterName = 'IMS-000000091';  // 5.11 Tactical TacLite Pro Women's Ripstop Long Pants 64360 Black General
@@ -47,8 +47,8 @@ String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '64360';
 // String manufacturerStockNumber = '74003';
-// String manufacturerStockNumber = '74273';
-String manufacturerStockNumber = '74434';
+String manufacturerStockNumber = '74273';
+// String manufacturerStockNumber = '74434';
 // String manufacturerStockNumber = 'H02 9672';
 // String manufacturerStockNumber = 'TR506';
 // String manufacturerStockNumber = 'TR549';
@@ -70,13 +70,13 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // {'','XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 // {'28','30','32','34','36','38','42','44'}
 
-List<String> sizes = new List<String>{'L','XL'};
+List<String> sizes = new List<String>{'42','44'};
 
 // Create Length Array
 // {'Long','Regular','Short','Unhemmed'}
 // {'30','32'}
 
-List<String> lengths = new List<String>{'Regular'};
+List<String> lengths = new List<String>{'30'};
 
 
 for (Integer s = 0 ; s < sizes.size() ; s++) {
@@ -125,8 +125,10 @@ FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c= 'Pants'
-    AND Manufacturer_Picklist__c = 'Galls'
-    
+    AND Manufacturer_Picklist__c = '5.11'
+    AND Manufacturer_Stock_Number_Picklist__c = 'TR506'
+    AND Description__c LIKE '%Black%'
+  
 
     AND Waist__c = :sizes.get(s)
     AND Length__c = :lengths.get(l)
