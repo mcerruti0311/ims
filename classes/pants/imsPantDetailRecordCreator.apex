@@ -1,13 +1,13 @@
 // Pants IMS Detail Creator for Uniforms with Size variable
 
 // Variables
-boolean goForInsert = true;
-String imsName = 'IMS-000000208';
+boolean goForInsert = false;
+String imsName = 'IMS-000000243';
 
 /* Sizes
 {'28','30','32','34','36','38','40','42','44','46','48','50','52','54','56'}
 */
-List<String> sizes = new List<String>{'34','36','38','40','42','44','46','48','50','52','54','56'};
+List<String> sizes = new List<String>{'28','30','32','34','36','38','40','42','44','46','48','50','52','54','56'};
 
 /* Lengths
    {'25','26','27','28','30','32','33','34','36','Unhemmed'}
