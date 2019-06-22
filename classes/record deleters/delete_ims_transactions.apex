@@ -1,6 +1,6 @@
 // variables to set
 // instance to delete records 
-String expectedInstance = 'na94';
+String expectedInstance = 'cs45';
 // change okToDelete to true to delete records
 boolean goForDelete = true;
 Integer runSize = 24;
