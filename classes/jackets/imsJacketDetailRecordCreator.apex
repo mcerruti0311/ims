@@ -1,13 +1,13 @@
 // IMS Detail Creator for Uniforms with Size variable
 // Variables
 boolean goForInsert = true;
-String imsName = 'IMS-000000209';
+String imsName = 'IMS-000000265';
 
 /* Sizes
 {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 */
 
-List<String> sizes = new List<String>{'XS','S','M','L','XL','2XL','3XL','4XL'};
+List<String> sizes = new List<String>{'S','M','L','XL','2XL','3XL','4XL','5XL'};
 
 List<IMS__c> imsMaster = [
   SELECT Id

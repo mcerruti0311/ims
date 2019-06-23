@@ -10,17 +10,20 @@ String uniformType = 'Jacket';
 
 // Style
 // String style = 'Blazer';
+// String style = 'Fleece Lining';
 // String style = 'Other';
 // String style = 'Parka';
-// String style = 'Rain';
-String style = 'Soft Shell';
+String style = 'Rain';
+// String style = 'Shell';
+// String style = 'Soft Shell';
 // String style = 'Windbreaker';
 
 // Manufacturer Information
 // String manufacturer = '5.11 Tactical';
 // String manufacturer = 'Galls';
 // String manufacturer = 'LawPro Uni';
-String manufacturer = 'Port Authority';
+String manufacturer = 'Neese Industries, Inc.';
+// String manufacturer = 'Port Authority';
 // String manufacturer = 'TRU-SPEC';
 
 // Colors
@@ -46,16 +49,21 @@ String feature = 'N/A';
 // String imsMasterName = 'IMS-000000201';  // TRU-SPEC H2O Proof All Season Rain Jacket 2402003 Black General
 // String imsMasterName = 'IMS-000000206';  // Port Authority Textured Soft Shell Jacket J705 Black 20600 - Apple Elk Grove General
 // String imsMasterName = 'IMS-000000207';  // Port Authority Textured Soft Shell Jacket J705 Black ODO
-String imsMasterName = 'IMS-000000209';  // Port Authority Textured Soft Shell Jacket J705 Black Specialist
+// String imsMasterName = 'IMS-000000209';  // Port Authority Textured Soft Shell Jacket J705 Black Specialist
+String imsMasterName = 'IMS-000000260';  // Neese Industries, Inc. Breathable with Tuck-Away Hood Rain Jacket 523AJ Black 20700 - Apple Austin General
+// String imsMasterName = 'IMS-000000264';  // Galls 3-in-1 System Fleece Lining Jacket JA785 Black 26000 - Amazon SLU General
+// String imsMasterName = 'IMS-000000265';  // Galls 3-in-1 System Shell Jacket JA786 Black 26000 - Amazon SLU General
 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '10-104';
 // String manufacturerStockNumber = '2402003';
-// String manufacturerStockNumber = 'J302';
+String manufacturerStockNumber = '523AJ';
 // String manufacturerStockNumber = 'J302';
 // String manufacturerStockNumber = 'J324';
-String manufacturerStockNumber = 'J705';
+// String manufacturerStockNumber = 'J705';
 // String manufacturerStockNumber = 'JA317';
+// String manufacturerStockNumber = 'JA785';
+// String manufacturerStockNumber = 'JA786';
 // String manufacturerStockNumber = 'JA787';
 // String manufacturerStockNumber = 'JC644';
 // String manufacturerStockNumber = 'JX304';
@@ -63,9 +71,9 @@ String manufacturerStockNumber = 'J705';
 
 // Sub Group
 // String subGroup = '';
-// String subGroup = 'General';
+String subGroup = 'General';
 // String subGroup = 'ODO';
-String subGroup = 'Specialist';
+// String subGroup = 'Specialist';
 // String subGroup = 'Supervisor';
 
 // Length 
@@ -82,7 +90,7 @@ String imsDescription = '%' + manufacturerStockNumber + ' ' + color + '%';
 // {'XS','S','M','L','XL','2XL','3XL','4XL','5XL','6XL'}
 // {'4','6','20','36','38','40','42','50','62'}
 
-List<String> sizes = new List<String>{'L','XL','2XL'};
+List<String> sizes = new List<String>{'S','M','L','XL','2XL','3XL'};
     
 for (Integer s = 0 ; s < sizes.size() ; s++) {
 List<IMS_Detail__c> imsDetails = [
@@ -130,8 +138,10 @@ FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c= 'Jacket'
-    AND Manufacturer_Picklist__c = 'Port Authority'
-    AND Manufacturer_Stock_Number_Picklist__c = 'J705'
+    AND Manufacturer_Picklist__c = 'Neese'
+    AND Manufacturer_Stock_Number_Picklist__c != ''
+    AND Size__c != ''
+    AND (Description__c LIKE '%') 
     
     AND Size__c = :sizes.get(s)
 

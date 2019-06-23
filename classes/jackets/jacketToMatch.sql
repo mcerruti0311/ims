@@ -11,8 +11,7 @@ SELECT Id,
     Length__c,
     Location_Data__r.Name,
     LastModifiedDate,
-    LastModifiedBy
-.Name
+    LastModifiedBy.Name
 FROM Uniform_Stock_Database__c
 WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
@@ -20,7 +19,4 @@ WHERE Retired_Item__c = false
     AND Manufacturer_Picklist__c != ''
     AND Manufacturer_Stock_Number_Picklist__c = ''
     AND Size__c != ''
-    AND Waist__c != ''
-    AND Length__c != ''
-    AND
-    (Description__c LIKE '%') 
+    AND (Description__c LIKE '%') 
