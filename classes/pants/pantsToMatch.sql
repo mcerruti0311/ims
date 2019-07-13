@@ -17,9 +17,7 @@ WHERE Retired_Item__c = false
     AND IMS_Detail__c = ''
     AND Uniform_Type__c= 'Pants'
     AND Manufacturer_Picklist__c != ''
-    AND Manufacturer_Stock_Number_Picklist__c = ''
-    AND Size__c != ''
+    AND Manufacturer_Stock_Number_Picklist__c != ''
     AND Waist__c != ''
     AND Length__c != ''
-    AND
-    (Description__c LIKE '%') 
+    AND  (Description__c LIKE '%') 

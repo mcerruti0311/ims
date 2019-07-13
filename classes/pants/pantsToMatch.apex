@@ -29,13 +29,13 @@ String feature = 'N/A';
 
 
 // IMS Master
-// String imsMasterName = 'IMS-000000029';  // 5.11 Tactical Taclite Pro Long Pants 74273 Black General
+String imsMasterName = 'IMS-000000029';  // 5.11 Tactical Taclite Pro Long Pants 74273 Black General
 // String imsMasterName = 'IMS-000000038';  // 5.11 Tactical Apex Long Pants 74434 Khaki General
 // String imsMasterName = 'IMS-000000060';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Black General
 // String imsMasterName = 'IMS-000000061';  // 5.11 Tactical Men's Ripstop TDU Long Pants 74003 Khaki General
 // String imsMasterName = 'IMS-000000069';  // 5.11 Tactical Taclite Pro Long Pants TR506 Khaki General
 // String imsMasterName = 'IMS-000000091';  // 5.11 Tactical TacLite Pro Women's Ripstop Long Pants 64360 Black General
-String imsMasterName = 'IMS-000000111';  // 5.11 Tactical Taclite Pro Long Pants 74273 Khaki General
+// String imsMasterName = 'IMS-000000111';  // 5.11 Tactical Taclite Pro Long Pants 74273 Khaki General
 // String imsMasterName = 'IMS-000000145';  // TRU-SPEC 24/7 Women's Polyester-Cotton Ripstop Pants TR625 Black Specialist
 // String imsMasterName = 'IMS-000000171';  // 5.11 Tactical TacLite Pro Women's Ripstop Long Pants 64360 Khaki Specialist
 // String imsMasterName = 'IMS-000000174';  // 5.11 Tactical Apex Long Pants 74434 Black Specialist
@@ -44,11 +44,14 @@ String imsMasterName = 'IMS-000000111';  // 5.11 Tactical Taclite Pro Long Pants
 // String imsMasterName = 'IMS-000000186';  // Galls Women's Tac Force Tactical Long Pants TT846 Khaki General
 // String imsMasterName = 'IMS-000000187';  // TRU-SPEC 24-7 Ripstop Long Pants TR549 Black Specialist
 // String imsMasterName = 'IMS-000000208';  // TRU-SPEC 24-7 Ripstop Long Pants TR549 Black General
+String imsMasterName = 'IMS-000000278';  // 5.11 Tactical Tactical Women's Stryke Pants 64386 Khaki General
+
 
 // Manufacturer Item Number
 // String manufacturerStockNumber = '64360';
+String manufacturerStockNumber = '64386';
 // String manufacturerStockNumber = '74003';
-String manufacturerStockNumber = '74273';
+// String manufacturerStockNumber = '74273';
 // String manufacturerStockNumber = '74434';
 // String manufacturerStockNumber = 'H02 9672';
 // String manufacturerStockNumber = 'TR506';
