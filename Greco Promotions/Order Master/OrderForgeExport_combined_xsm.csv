@@ -1,0 +1,16 @@
+Source Unique Id,Order Id,Line #,Order Date,Status,Product Id,Line Item Id,Name,Quantity,Quantity Shipped,UOM,Quantity Multiplier,Product File,Description,Unit Price,Original Unit Price,Extended Price,Order User,Requested Shipment Method,Ship To Address Label,Ship To Address Name,Ship To Address Company Name,Ship To Address Deliver To,Ship To Address 1,Ship To Address 2,Ship To Address 3,Ship To City,Ship To Address State,Ship To Address Postal Code,Ship To Address Country Code,Ship To Address Email,Ship To Address Phone,Actual Shipment Methods,Shipment Tracking Numbers,Shipment Dates,Related Shipment Costs Total,Calculated Shipment Cost Amount,City Tax Rate,County Tax Rate,State Tax Rate,Combined Tax Rate,Tax County Name,Supplying Organizations,_Cost Center,Specifications
+7f690bc0-3eb2-e911-80ff-0cc47a7eded9,MF-13,1,7/29/2019 16:23,Shipped,Apple-Austin-19-304-Black,UNP362-BB,Apple Austin Wool Blend Cap,1,1,,1,,"<p>Product Specs:</p>
+
+<p>Wool Blend Twill, 6 Panel, Low Profile, Structured Firm Front Panel Low-Fitting, Gray Undervisor, 85% Acrylic / 15% Wool</p>
+",$13.12 ,$13.12 ,$13.12 ,12423@sis.us,Fed-x,Work,Test Hiren,Apple Austin,,1234 Test Street,,,Austin,TX,73301,US,,8888881234,Fed-X Ground,420723.Test,8/6/2019,$0.00 ,$10.00 ,0,0,0,10.16,,Owner Provided Services,20700 - Apple Austin,
+81690bc0-3eb2-e911-80ff-0cc47a7eded9,MF-13,2,7/29/2019 16:23,Shipped,Apple-Austin-S608-Black,ULH329-B30,Apple Austin Long Sleeve Shirt (Watch Commander),1,1,,1,,"<p>Products Specs:</p>
+
+<ul>
+	<li>4.5-ounce, 55/45 cotton/poly</li>
+	<li>Button-down collar</li>
+	<li>Dyed-to-match buttons</li>
+	<li>Left chest pocket</li>
+	<li>Box back pleat</li>
+	<li>Adjustable cuffs</li>
+</ul>
+",$39.50 ,$39.50 ,$39.50 ,12423@sis.us,Fed-x,Work,Test Hiren,Apple Austin,,1234 Test Street,,,Austin,TX,73301,US,,8888881234,Fed-X Ground,420723.Test,8/6/2019,$0.00 ,$15.00 ,0,0,0,10.16,,Owner Provided Services,20700 - Apple Austin,Size: XS-4XL: L
