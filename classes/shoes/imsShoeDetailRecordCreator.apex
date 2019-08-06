@@ -1,18 +1,18 @@
 // Pants IMS Detail Creator for Uniforms with Size variable
 
 // Variables
-boolean goForInsert = true;
-String imsName = 'IMS-000000111';
+boolean goForInsert = false;
+String imsName = 'IMS-000000225';
 
 /* Sizes
-{'28','29','30','32','34','36','38','40','42','44','46','48','50','52','54','56'}
+{'7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','14','15'}
 */
-List<String> sizes = new List<String>{'52'};
+List<String> sizes = new List<String>{'7','7.5','8','8.5','9','9.5','10','10.5','11','11.5','12','14'};
 
 /* Lengths
-   {'25','26','27','28','30','32','33','34','36','Unhemmed'}
+   {'N/A','EW','M','W'}
 */
-List<String> lengths = new List<String>{'27','29','29.5','33','38','40','Unhemmed'};
+List<String> lengths = new List<String>{'EW'};
 
 List<IMS__c> imsMaster = [
   SELECT Id

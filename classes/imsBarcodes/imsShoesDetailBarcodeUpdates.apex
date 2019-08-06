@@ -1,11 +1,9 @@
 Boolean goForUpdate = true;
-Integer runSize = 20;
-String vendorItemNumber ='PTR336-B';
-String imsMasterName = 'IMS-000000060';
+Integer runSize = 25;
+String vendorItemNumber ='FSP620-B';
+String imsMasterName = 'IMS-000000225';
 String detailVendorItemNumber = '';
 String length = '';
-String size = '54';
-
 
 List <IMS_Detail__c> detailsToUpdate = [
   SELECT Id,
@@ -18,10 +16,6 @@ List <IMS_Detail__c> detailsToUpdate = [
   WHERE IMS_Master__r.Name = :imsMasterName
   	AND IMS_Detail_Status__c != 'Void'
     AND Vendor_Item_Number__c = ''
-/**    
-    AND Size__c = :size
-*/
-
   ORDER BY Name     
   LIMIT :runSize  
 ];
@@ -29,21 +23,8 @@ List <IMS_Detail__c> detailsToUpdate = [
 System.assert(detailsToUpdate.Size() > 0, 'No Records To Update');
 
 for(Integer c = 0; c < detailsToUpdate.Size(); c++) {
-    if(detailsToUpdate[c].Length__c == 'Unhemmed') {
-        length = 'U';
-            } 
-    else if (detailsToUpdate[c].Length__c == 'Regular') {
-        length = 'R';
-    }
-    else if (detailsToUpdate[c].Length__c == 'Long') {
-        length = 'L';
-    }
-    else if (detailsToUpdate[c].Length__c == 'Short') {
-        length = 'S';
-    }
-    	else {
-                length = detailsToUpdate[c].Length__c;
-    	} 
+
+    length = detailsToUpdate[c].Length__c;
 
     detailVendorItemNumber = vendorItemNumber + detailsToUpdate[c].Size__c + length;  
 
@@ -59,21 +40,9 @@ for(Integer c = 0; c < detailsToUpdate.Size(); c++) {
 
 if(goForUpdate) {
     for (Integer i = 0; i < detailsToUpdate.size(); i++) {
-      if(detailsToUpdate[i].Length__c == 'Unhemmed') {
-        length = 'U';
-            } 
-        else if (detailsToUpdate[i].Length__c == 'Regular') {
-        length = 'R';    
-        }
-        else if (detailsToUpdate[i].Length__c == 'Long') {
-        length = 'L';    
-        }
-        else if (detailsToUpdate[i].Length__c == 'Short') {
-        length = 'S';    
-        }
-        else {
-          length = detailsToUpdate[i].Length__c;
-        } 
+    
+      length = detailsToUpdate[i].Length__c;
+       
 		  detailsToUpdate[i].Vendor_Item_Number__c = detailVendorItemNumber = vendorItemNumber + detailsToUpdate[i].Size__c + length;       
     }
     

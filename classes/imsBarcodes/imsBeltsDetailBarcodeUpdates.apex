@@ -1,26 +1,9 @@
 Boolean goForUpdate = true;
-String vendorItemNumber ='JANJS535-B';
-String imsMasterName = 'IMS-000000301';
+Integer runSize = 15;
+String vendorItemNumber ='ULH329-B';
+String imsMasterName = 'IMS-000000261';
 String detailVendorItemNumber = '';
-
-
-Map <String, String> sizeIdentifier = new Map <String, String> {
-    'XS' => '01',
-    'S' => '02',
-    'M' => '03',        
-    'L' => '04',
-    'XL' => '05',
-    '2XL' => '06',
-    '3XL' => '07',
-    '4XL' => '08',      
-    '5XL' => '09',
-    '6XL' => '10',
-    'XLT' => '16',
-    '2XLT' => '17',
-    '3XLT' => '18'
-};
-
-
+String length = '';
 
 List <IMS_Detail__c> detailsToUpdate = [
   SELECT Id,
@@ -32,28 +15,29 @@ List <IMS_Detail__c> detailsToUpdate = [
   FROM IMS_Detail__c
   WHERE IMS_Master__r.Name = :imsMasterName
   	AND IMS_Detail_Status__c != 'Void'
+    AND Vendor_Item_Number__c = ''
   ORDER BY Name     
+  LIMIT :runSize  
 ];
 
 System.assert(detailsToUpdate.Size() > 0, 'No Records To Update');
 
 for(Integer c = 0; c < detailsToUpdate.Size(); c++) {
-    
-  detailVendorItemNumber = vendorItemNumber + sizeIdentifier.get(detailsToUpdate[c].Size__C);  
+    detailVendorItemNumber = vendorItemNumber + detailsToUpdate[c].Size__c;
+
   System.debug(
       c + 
       ' IMS-Detail: ' + detailsToUpdate[c].Name + 
       ' Size: ' + detailsToUpdate[c].Size__c +
+      ' Length: ' + detailsToUpdate[c].Length__c +
       ' Vendor Item: ' + detailsToUpdate[c].Vendor_Item_Number__c + 
       ' Calculated VIN: ' + detailVendorItemNumber
   );
 }
 
-
-
 if(goForUpdate) {
     for (Integer i = 0; i < detailsToUpdate.size(); i++) {
-		   detailsToUpdate[i].Vendor_Item_Number__c = vendorItemNumber + sizeIdentifier.get(detailsToUpdate[i].Size__C);       
+		  detailsToUpdate[i].Vendor_Item_Number__c = vendorItemNumber + detailsToUpdate[i].Size__c;
     }
     
     try {

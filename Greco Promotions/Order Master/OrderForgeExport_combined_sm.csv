@@ -1,0 +1,86 @@
+Source Unique Id,Order Id,Line #,Order Date,Status,Product Id,Line Item Id,Name,Quantity,Quantity Shipped,UOM,Quantity Multiplier,Product File,Description,Unit Price,Original Unit Price,Extended Price,Order User,Requested Shipment Method,Ship To Address Label,Ship To Address Name,Ship To Address Company Name,Ship To Address Deliver To,Ship To Address 1,Ship To Address 2,Ship To Address 3,Ship To City,Ship To Address State,Ship To Address Postal Code,Ship To Address Country Code,Ship To Address Email,Ship To Address Phone,Actual Shipment Methods,Shipment Tracking Numbers,Shipment Dates,Related Shipment Costs Total,Calculated Shipment Cost Amount,City Tax Rate,County Tax Rate,State Tax Rate,Combined Tax Rate,Tax County Name,Supplying Organizations,_Cost Center,Specifications
+7f690bc0-3eb2-e911-80ff-0cc47a7eded9,MF-13,1,7/29/2019 16:23,Open,Apple-Austin-19-304-Black,UNP362-BB,Apple Austin Wool Blend Cap,1,0,,1,,"<p>Product Specs:</p>
+
+<p>Wool Blend Twill, 6 Panel, Low Profile, Structured Firm Front Panel Low-Fitting, Gray Undervisor, 85% Acrylic / 15% Wool</p>
+",$13.12 ,$13.12 ,$13.12 ,12423@sis.us,Fed-x,Work,Test Hiren,Apple Austin,,1234 Test Street,,,Austin,TX,73301,US,,8888881234,Fed-X Ground,420723.Test,,$0.00 ,$10.00 ,0,0,0,10.16,,Owner Provided Services,20700 - Apple Austin,
+81690bc0-3eb2-e911-80ff-0cc47a7eded9,MF-13,2,7/29/2019 16:23,Open,Apple-Austin-S608-Black,ULH329-B30,Apple Austin Long Sleeve Shirt (Watch Commander),1,0,,1,,"<p>Products Specs:</p>
+
+<ul>
+	<li>4.5-ounce, 55/45 cotton/poly</li>
+	<li>Button-down collar</li>
+	<li>Dyed-to-match buttons</li>
+	<li>Left chest pocket</li>
+	<li>Box back pleat</li>
+	<li>Adjustable cuffs</li>
+</ul>
+",$39.50 ,$39.50 ,$39.50 ,12423@sis.us,Fed-x,Work,Test Hiren,Apple Austin,,1234 Test Street,,,Austin,TX,73301,US,,8888881234,Fed-X Ground,420723.Test,,$0.00 ,$15.00 ,0,0,0,10.16,,Owner Provided Services,20700 - Apple Austin,Size: XS-4XL: L
+d8e22d79-b8b0-e911-80fe-0cc47a7eded9,MF-10,1,7/27/2019 17:50,Open,AAJ705-B,PTR336-BXSS,Apple Austin Soft Shell Jacket,24,0,,1,,"<p>Perfect for everyday wear, our soft shell jacket has an understated texture that makes it a bit more sophisticated than other soft shells. Super soft and flexible, this jacket delivers pure comfort as well as water and wind protection. The raglan silhouette gives you optimum range of motion, while the angled zippered chest pocket adds visual appeal.</p>
+
+<ul>
+	<li>96/4 poly/spandex woven shell bonded to 100% polyester microfleece with laminated film insert to repel water and wind</li>
+	<li>1000MM fabric waterproof rating</li>
+	<li>1000G/M&sup2; fabric breathability rating</li>
+	<li>Storm flap with chin guard</li>
+	<li>Ergonomic zipper pulls</li>
+	<li>Zippered chest pocket</li>
+	<li>Front zippered pockets</li>
+	<li>Spandex-trimmed cuffs</li>
+	<li>Port Pocket&trade; for easy embroidery access</li>
+	<li>Open hem with drawcord and toggles</li>
+</ul>
+",$70.21 ,$70.21 ,"$1,685.04 ",15968@sis.us,Fed-x,ProStores eCommerce,QA Tester,Proforma,,8800 East Pleasant Valley,,,Independence,OH,44118,US,,0,Fed-X Ground,59048.80509,,$0.00 ,$10.00 ,0,0,0,8.25,,,20700 - Apple Austin,Size: XS-4XL: M;Color: B
+dce22d79-b8b0-e911-80fe-0cc47a7eded9,MF-10,2,7/27/2019 17:50,Open,AAJ705-B,AAK540LS-W01,Apple Austin Soft Shell Jacket,12,0,,1,,"<p>Perfect for everyday wear, our soft shell jacket has an understated texture that makes it a bit more sophisticated than other soft shells. Super soft and flexible, this jacket delivers pure comfort as well as water and wind protection. The raglan silhouette gives you optimum range of motion, while the angled zippered chest pocket adds visual appeal.</p>
+
+<ul>
+	<li>96/4 poly/spandex woven shell bonded to 100% polyester microfleece with laminated film insert to repel water and wind</li>
+	<li>1000MM fabric waterproof rating</li>
+	<li>1000G/M&sup2; fabric breathability rating</li>
+	<li>Storm flap with chin guard</li>
+	<li>Ergonomic zipper pulls</li>
+	<li>Zippered chest pocket</li>
+	<li>Front zippered pockets</li>
+	<li>Spandex-trimmed cuffs</li>
+	<li>Port Pocket&trade; for easy embroidery access</li>
+	<li>Open hem with drawcord and toggles</li>
+</ul>
+",$71.72 ,$71.72 ,$860.64 ,15968@sis.us,Fed-x,ProStores eCommerce,QA Tester,Proforma,,8800 East Pleasant Valley,,,Independence,OH,44118,US,,0,Fed-X Ground,59048.80509,,$0.00 ,$5.00 ,0,0,0,8.25,,,20700 - Apple Austin,Size: XS-4XL: S;Color: B
+e0e22d79-b8b0-e911-80fe-0cc47a7eded9,MF-10,3,7/27/2019 17:50,Open,AAJ705-B,AAK540-W01,Apple Austin Soft Shell Jacket,40,0,,1,,"<p>Perfect for everyday wear, our soft shell jacket has an understated texture that makes it a bit more sophisticated than other soft shells. Super soft and flexible, this jacket delivers pure comfort as well as water and wind protection. The raglan silhouette gives you optimum range of motion, while the angled zippered chest pocket adds visual appeal.</p>
+
+<ul>
+	<li>96/4 poly/spandex woven shell bonded to 100% polyester microfleece with laminated film insert to repel water and wind</li>
+	<li>1000MM fabric waterproof rating</li>
+	<li>1000G/M&sup2; fabric breathability rating</li>
+	<li>Storm flap with chin guard</li>
+	<li>Ergonomic zipper pulls</li>
+	<li>Zippered chest pocket</li>
+	<li>Front zippered pockets</li>
+	<li>Spandex-trimmed cuffs</li>
+	<li>Port Pocket&trade; for easy embroidery access</li>
+	<li>Open hem with drawcord and toggles</li>
+</ul>
+",$70.21 ,$70.21 ,"$2,808.40 ",15968@sis.us,Fed-x,ProStores eCommerce,QA Tester,Proforma,,8800 East Pleasant Valley,,,Independence,OH,44118,US,,0,Fed-X Ground,59048.80509,,$0.00 ,$10.00 ,0,0,0,8.25,,,20700 - Apple Austin,Size: XS-4XL: M;Color: B
+e4e22d79-b8b0-e911-80fe-0cc47a7eded9,MF-10,4,7/27/2019 17:50,Open,AAJ705-B,AAK540LS-B01,Apple Austin Soft Shell Jacket,10,0,,1,,"<p>Perfect for everyday wear, our soft shell jacket has an understated texture that makes it a bit more sophisticated than other soft shells. Super soft and flexible, this jacket delivers pure comfort as well as water and wind protection. The raglan silhouette gives you optimum range of motion, while the angled zippered chest pocket adds visual appeal.</p>
+
+<ul>
+	<li>96/4 poly/spandex woven shell bonded to 100% polyester microfleece with laminated film insert to repel water and wind</li>
+	<li>1000MM fabric waterproof rating</li>
+	<li>1000G/M&sup2; fabric breathability rating</li>
+	<li>Storm flap with chin guard</li>
+	<li>Ergonomic zipper pulls</li>
+	<li>Zippered chest pocket</li>
+	<li>Front zippered pockets</li>
+	<li>Spandex-trimmed cuffs</li>
+	<li>Port Pocket&trade; for easy embroidery access</li>
+	<li>Open hem with drawcord and toggles</li>
+</ul>
+",$75.50 ,$75.50 ,$755.00 ,15968@sis.us,Fed-x,ProStores eCommerce,QA Tester,Proforma,,8800 East Pleasant Valley,,,Independence,OH,44118,US,,0,Fed-X Ground,59048.80509,,$0.00 ,$15.00 ,0,0,0,8.25,,,20700 - Apple Austin,Size: XS-4XL: S;Color: B
+e8e22d79-b8b0-e911-80fe-0cc47a7eded9,MF-10,5,7/27/2019 17:50,Open,Pegatron-K500-Royal,UNP362-BB,Pegatron Polo (Specialist),1,0,,1,,"<p>Product Specs:</p>
+
+<ul>
+	<li>5-ounce, 65/35 poly/cotton pique</li>
+	<li>Flat knit collar and cuffs</li>
+	<li>Metal buttons with dyed-to-match plastic rims</li>
+	<li>Double-needle armhole seams and hem</li>
+	<li>Side vents</li>
+</ul>
+",$29.30 ,$29.30 ,$29.30 ,15968@sis.us,Fed-x,ProStores eCommerce,QA Tester,Proforma,,8800 East Pleasant Valley,,,Independence,OH,44118,US,,0,Fed-X Ground,59048.80509,,$0.00 ,$20.00 ,0,0,0,8.25,,,20700 - Apple Austin,Size: XS-6XL: 4XL
